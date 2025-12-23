@@ -1,0 +1,1062 @@
+// Prisma Schema for Equidia Horse Racing Data
+// Database: SQLite
+// Purpose: Store complete race data, horses, performances, and analysis
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ==========================================
+// CORE ENTITIES
+// ==========================================
+
+model Hippodrome {
+  id           String    @id @default(cuid())
+  code         String    @unique // "CHA", "VIN"
+  name         String    // "CHANTILLY"
+  countryCode  String?   // "FRA"
+  
+  reunions     Reunion[]
+  
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  
+  @@index([code])
+  @@index([countryCode])
+}
+
+model Reunion {
+  id                    String    @id @default(cuid())
+  
+  // Identifiers
+  dateReunion           String    // "2025-12-09"
+  numReunion            Int       // 1
+  libReunion            String    // "CHANTILLY"
+  specialiteReunion     String    // "Plat", "Trot", "Obstacle"
+  
+  // Hippodrome
+  hippodromeId          String
+  hippodrome            Hippodrome @relation(fields: [hippodromeId], references: [id])
+  
+  // Weather
+  meteoTemperature      String?
+  meteoVentDirection    String?   // "Sud"
+  meteoVentForce        String?   // "21"
+  meteoNebulositeCode   String?   // "P4"
+  meteoNebulositeLabel  String?   // "Peu Nuageux"
+  
+  // Timing
+  heureReunionRacing    String?
+  heureFinReunion       String?
+  
+  // Flags
+  isPmh                 Boolean   @default(false)
+  isPremium             Boolean   @default(false)
+  
+  // Streaming
+  fluxUrl               String?   // "racing1"
+  fluxType              String?   // "RACING"
+  fluxActive            Boolean   @default(false)
+  
+  // Relations
+  races                 Race[]
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@unique([dateReunion, numReunion, libReunion])
+  @@index([dateReunion])
+  @@index([specialiteReunion])
+}
+
+model Race {
+  id                      String    @id @default(cuid())
+  
+  // Identifiers
+  uuid                    String    @unique
+  guid                    String    @unique // "20251209_CHA_6"
+  numCoursePmu            Int
+  
+  // Reunion
+  reunionId               String
+  reunion                 Reunion   @relation(fields: [reunionId], references: [id])
+  
+  // Race Info
+  libcourtPrixCourse      String    // "PISTE D'AVILLY"
+  liblongPrixCourse       String?
+  libCordeCourse          String?   // "Corde à droite"
+  discipline              String    // "Plat", "Trot", "Obstacle"
+  categCourse             String    // "HANDICAP DIVISE"
+  typeCourse              String?   // "Classe 3"
+  distance                Int       // 1600
+  libParcoursCourse       String?
+  description             String?
+  groupe                  String?   // "G1", "G2", "G3", ""
+  
+  // Conditions
+  etatTerrain             String    // "PSF STANDARD"
+  libPisteCourse          String?   // "PSF"
+  conditionsTxtCourse     String    @default("")
+  heureRelevePenetr       String?
+  
+  // Timing
+  heureDepartCourse       String
+  realHeureCourse         String?
+  
+  // Status
+  statutCourseId          Int?      // 16 = finished
+  typeStatutCourseId      String?   // "finished"
+  nbdeclareCourse         Int?
+  
+  // Flags
+  isQuintePlus            Boolean   @default(false)
+  isQuinteNew             Boolean   @default(false)
+  isPickFive              Boolean   @default(false)
+  isPmh                   Boolean   @default(false)
+  isTirelire              Boolean   @default(false)
+  isBooster               Boolean   @default(false)
+  tracked                 Boolean   @default(false)
+  worldPool               Boolean   @default(false)
+  
+  // Financial
+  montantTotalAllocation  String?   // "19.200 euros"
+  enjeuSgMontant          Int?
+  
+  // Media
+  photoPath               String?
+  photoFinish             String?
+  videoCourseId           String?
+  videoCourseNom          String?
+  
+  // Relations
+  partants                Partant[]
+  pariCourses             PariCourse[]
+  photoGallery            PhotoGallery[]
+  pronostic               Pronostic?
+  interviewSet            InterviewSet?
+  notule                  Notule?
+  tracking                Tracking[]
+  rapports                Rapport[]
+  articles                Article[]
+  references              Reference[]
+  pariSimple              PariSimple[]
+  
+  // JSON API Response Cache (for quick access without joins)
+  raceDetailsJson         String?   // JSON: Full race details API response
+  pronosticJson           String?   // JSON: Pronostic API response
+  interviewsJson          String?   // JSON: Interviews API response
+  notesJson               String?   // JSON: Notes API response
+  trackingJson            String?   // JSON: Tracking API response
+  notuleJson              String?   // JSON: Notule API response
+  referencesJson          String?   // JSON: References API response
+  rapportsJson            String?   // JSON: Rapports API response
+  pariSimpleJson          String?   // JSON: Pari Simple API response
+  
+  createdAt               DateTime  @default(now())
+  updatedAt               DateTime  @updatedAt
+  
+  @@index([guid])
+  @@index([reunionId])
+  @@index([discipline])
+  @@index([statutCourseId])
+  @@index([isQuintePlus])
+}
+
+model Horse {
+  id                String    @id @default(cuid())
+  
+  // Identifiers
+  uuid              String    @unique
+  slug              String    @unique // "montgaudry"
+  nomCheval         String    // "MONTGAUDRY"
+  
+  // Details
+  sexeCheval        String    // "M", "F", "H"
+  ageCheval         Int
+  musique           String    // "5p6p2p2p1p1p0p6p0p3p"
+  shortMusique      String?
+  gainsCarriere     Int
+  
+  // Form Data (from HorseLastOrNextMusiques)
+  chevalCalculated  String?   // Horse form: "1p2p3p4p5p"
+  trainerCalculated String?   // Trainer form: "2p1p3p2p1p"
+  monteCalculated   String?   // Jockey form: "3p2p1p4p2p"
+  
+  // Relations
+  partants          Partant[]
+  historyRaces      HorseHistory[]
+  stats             HorseStats?
+  
+  // JSON API Response Cache
+  historyJson       String?   // JSON: Horse history API response
+  statsJson         String?   // JSON: Horse stats API response
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([slug])
+  @@index([nomCheval])
+  trainers Trainer[] @relation("HorseTrainer")
+  horseTrainers HorseTrainer[] @relation("HorseTrainer")
+}
+
+model HorseStats {
+  id                    String    @id @default(cuid())
+  
+  horseId               String    @unique
+  horse                 Horse     @relation(fields: [horseId], references: [id])
+  
+  // Career Earnings
+  gainsCarriere         Int       // Total career earnings
+  gainsVictoire         Int       // Earnings from wins only
+  
+  // Quinté Statistics
+  quinteNbPlace2a5      Int       // Places 2-5 in Quinté
+  quinteNbVictoire      Int       // Wins in Quinté
+  quinteNbCourse        Int       // Total Quinté races
+  quintePercent         Int       // Success rate (places 1-5)
+  
+  // Career Statistics
+  carriereNbPlace       Int       // Total places (1-3)
+  carriereNbVictoire    Int       // Total wins
+  carriere4eOu5e        Int       // 4th or 5th places
+  carriereNbCourse      Int       // Total races
+  carriereMusique       String    // Recent form (last 10)
+  carriereCalculatedMusique String // Complete form string
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@index([horseId])
+  @@index([quintePercent])
+  @@index([carriereNbVictoire])
+}
+
+model Trainer {
+  id                String    @id @default(cuid())
+  uuid              String    @unique // Equidia UUID
+  nomEntraineur     String
+  
+  partants          Partant[]
+  horses            Horse[]   @relation("HorseTrainer")
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([uuid])
+  @@index([nomEntraineur])
+  horseTrainers HorseTrainer[]
+}
+
+model Jockey {
+  id                String    @id @default(cuid())
+  uuid              String    @unique // Equidia UUID
+  nomMonte          String
+  
+  partants          Partant[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([uuid])
+  @@index([nomMonte])
+}
+
+// ==========================================
+// RACE PARTICIPANTS
+// ==========================================
+
+model Partant {
+  id                      String    @id @default(cuid())
+  
+  // Race
+  raceId                  String
+  race                    Race      @relation(fields: [raceId], references: [id])
+  
+  // Horse
+  horseId                 String
+  horse                   Horse     @relation(fields: [horseId], references: [id])
+  
+  // Jockey
+  jockeyId                String
+  jockey                  Jockey    @relation(fields: [jockeyId], references: [id])
+  
+  // Trainer
+  trainerId               String
+  trainer                 Trainer   @relation(fields: [trainerId], references: [id])
+  
+  // Position
+  numPartant              Int
+  placeCordepartant       String
+  
+  // Performance
+  statutPart              String    // "DP", "NP"
+  statutPartPcc           String
+  numPlaceArrivee         String?
+  tempsPart               String?
+  textePlaceArrivee       String?
+  
+  // Weight
+  pdsCalcHandPartant      Float
+  pdsCondMontePartant     Float
+  
+  // Equipment
+  oeilPartant             String    // "N", "O", "A"
+  oeilPartantFirstTime    Boolean   @default(false)
+  bonnet                  Boolean   @default(false)
+  attacheLangue           Boolean   @default(false)
+  deferrerPartant         String
+  deferrerPartantFirstTime Boolean  @default(false)
+  typeEng                 String
+  
+  // Handicap
+  valeur                  Float?
+  coteReference           Float?
+  
+  // Media
+  silksPath               String
+  
+  // Relations
+  postRaceNote            PostRaceNote?
+  
+  createdAt               DateTime  @default(now())
+  updatedAt               DateTime  @updatedAt
+  
+  @@unique([raceId, numPartant])
+  @@index([horseId])
+  @@index([jockeyId])
+  @@index([trainerId])
+}
+
+// ==========================================
+// BETTING
+// ==========================================
+
+model PariCourse {
+  id                String    @id @default(cuid())
+  
+  raceId            String
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  codePari          String    // "1", "2", "3"
+  titre             String    // "Simple gagnant"
+  typeParis         String    // "OFF", "ON"
+  color             String?
+  audience          String    // "Nationale"
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([raceId])
+  @@index([codePari])
+}
+
+model Rapport {
+  id                String    @id @default(cuid())
+  
+  raceId            String
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  // Pari Type
+  codePari          String    // "1", "2", "3", "4", "8", "9", "20"
+  titre             String    // "Simple gagnant", "Couplé", "Trio"
+  typeParis         String    // "OFF", "ON", "ON-OFF"
+  betPath           String?   // SVG icon URL
+  oddsType          String?   // "TYPE_RAPPORT_GAGNANT_PLACE"
+  weight            Int?      // Display order
+  
+  // Rapport Definitif
+  miseBase          String?   // "2,00", "3,00"
+  codePariGenerique String?
+  audiencePariCourse String?
+  numerosGagnantsOption String? // JSON array
+  
+  combinaisons      RapportCombinaison[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([raceId])
+  @@index([codePari])
+}
+
+model RapportCombinaison {
+  id                    String    @id @default(cuid())
+  
+  rapportId             String
+  rapport               Rapport   @relation(fields: [rapportId], references: [id])
+  
+  // Combination
+  combinaisonRapDef     String    // "08", "08-01", "08-01-09"
+  typeReserveRapDef     String    // "Simple", "Couplé", "Trio"
+  
+  // Payouts (French decimal format)
+  gagnant               String?   // "32,00"
+  gagnantMb             String?   // "64,00"
+  place                 String?   // "7,50"
+  placeMb               String?   // "15,00"
+  
+  // Bet Amounts
+  sumMisesGagn          String?   // "3.265,35"
+  sumMisesPlace         String?   // "2.873,36"
+  sumMisesGagnTypeRes   String?   // Total for this type
+  sumMisesPlaceTypeRes  String?   // Total for this type
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@index([rapportId])
+  @@index([combinaisonRapDef])
+}
+
+// ==========================================
+// ANALYSIS & PREDICTIONS
+// ==========================================
+
+model Pronostic {
+  id                String    @id @default(cuid())
+  
+  raceId            String    @unique
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  // Metadata
+  uuid              String    @unique
+  type              String    // "analysis_by_horse"
+  status            String    // "published"
+  difficulty        Int       // 1-5
+  validated         Boolean   @default(false)
+  
+  // Content
+  chapeau           String    @default("")
+  presentation      String?   // Legacy field
+  
+  // Timestamps
+  publishedAt       String
+  validatedAt       String?
+  
+  // Creator
+  creatorFirstname  String
+  creatorLastname   String
+  creatorPhotoUrl   String
+  creatorIsJournalist Boolean @default(true)
+  creatorClassKey   Int
+  creatorUuid       String
+  creatorSlug       String
+  
+  // Selections (JSON arrays)
+  bases             String    // JSON array of numbers
+  bellesChances     String    // JSON array of numbers
+  outsiders         String    // JSON array of numbers
+  delaisses         String    // JSON array of numbers
+  
+  // Bet links (JSON object)
+  betLinks          String?   // JSON object
+  
+  analyses          PronosticAnalysis[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([uuid])
+  @@index([creatorUuid])
+}
+
+model PronosticAnalysis {
+  id                String    @id @default(cuid())
+  
+  pronosticId       String
+  pronostic         Pronostic @relation(fields: [pronosticId], references: [id])
+  
+  // Position & Rating
+  position          Int
+  noteNumerique     Float
+  coteJournaliste   Float
+  numPartant        Int
+  analysisHorse     String?
+  
+  // Horse Info
+  chevalNom         String
+  chevalSlug        String
+  chevalUuid        String
+  
+  // Partant Info
+  partantUuid       String
+  partantNumPartant Int
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([pronosticId])
+  @@index([numPartant])
+  @@index([chevalUuid])
+  @@index([partantUuid])
+}
+
+model InterviewSet {
+  id                String    @id @default(cuid())
+  
+  raceId            String    @unique
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  // Identifiers
+  uuid              String    @unique
+  
+  // Author
+  authorFirstname   String
+  authorLastname    String
+  authorPhotoUrl    String
+  authorIsJournalist Boolean  @default(true)
+  authorClassKey    Int
+  authorUuid        String
+  authorSlug        String
+  
+  // Metadata
+  status            String    // "published"
+  updatedAtApi      String    // API timestamp
+  
+  interviews        Interview[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([uuid])
+  @@index([authorUuid])
+}
+
+model Interview {
+  id                String    @id @default(cuid())
+  
+  interviewSetId    String
+  interviewSet      InterviewSet @relation(fields: [interviewSetId], references: [id])
+  
+  // Identifiers
+  uuid              String    @unique
+  partantUuid       String
+  numPartant        Int
+  
+  // Horse Info
+  chevalNom         String
+  chevalUuid        String
+  
+  // Interview Content
+  personne          String    // "Christophe Plisson, entraîneur"
+  note              Float?    // Confidence 0-10 (optional for reporter opinions)
+  texte             String    @default("")
+  
+  // Legacy fields
+  subtitle          String?
+  shortTitle        String?
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([interviewSetId])
+  @@index([numPartant])
+  @@index([uuid])
+  @@index([partantUuid])
+  @@index([chevalUuid])
+}
+
+model Notule {
+  id                String    @id @default(cuid())
+  
+  raceId            String    @unique
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  // Identifiers
+  uuid              String    @unique
+  
+  // Content
+  accroche          String    @default("") // Headline
+  analyse           String    @default("") // Overall analysis
+  
+  // Author
+  authorFirstname   String
+  authorLastname    String
+  authorPhotoUrl    String
+  authorIsJournalist Boolean  @default(true)
+  authorClassKey    Int
+  authorUuid        String
+  authorSlug        String
+  
+  // Metadata
+  status            String    // "published"
+  updatedAtApi      String    // API timestamp
+  
+  notulePartants    NotulePartant[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([uuid])
+  @@index([authorUuid])
+}
+
+model NotulePartant {
+  id                    String    @id @default(cuid())
+  
+  notuleId              String
+  notule                Notule    @relation(fields: [notuleId], references: [id])
+  
+  // Identifiers
+  uuid                  String    @unique
+  partantUuid           String
+  partantId             Int       // Internal partant ID
+  numPartant            Int
+  
+  // Horse Info
+  chevalNom             String
+  chevalUuid            String
+  
+  // Jockey
+  monteNom              String
+  
+  // Performance
+  numPlaceArrivee       String
+  textePlaceArrivee     String
+  statutPart            String
+  statutPartPcc         String
+  
+  // Commentary
+  texte                 String    @default("")
+  impressionActive      Boolean   @default(false) // Left good impression
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@index([notuleId])
+  @@index([numPartant])
+  @@index([uuid])
+  @@index([partantUuid])
+  @@index([chevalUuid])
+  @@index([impressionActive])
+}
+
+model PostRaceNote {
+  id                String    @id @default(cuid())
+  
+  partantId         String    @unique
+  partant           Partant   @relation(fields: [partantId], references: [id])
+  
+  // Internal ID
+  noteIdNavPartant  String    @unique
+  
+  // Overall Rating
+  noteEquidia       Float     // 0-20
+  
+  // Component Scores (0-1)
+  aptitudes         Float     // Aptitude score
+  formeCheval       Float     // Form score
+  conditions        Float     // Conditions suitability
+  tandem            Float     // Jockey/trainer combination
+  aptTerrain        Float     // Ground suitability
+  
+  // Legacy fields (may not be present)
+  bruitsEcuries     Float?    // Stable rumors
+  pronos            Float?    // Predictions score
+  
+  // Timestamps from API
+  noteCreatedAt     String
+  noteUpdatedAt     String
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([partantId])
+  @@index([noteIdNavPartant])
+  @@index([noteEquidia])
+}
+
+// ==========================================
+// TRACKING & PERFORMANCE
+// ==========================================
+
+model Tracking {
+  id                    String    @id @default(cuid())
+  
+  raceId                String
+  race                  Race      @relation(fields: [raceId], references: [id])
+  
+  // Identifiers
+  trackingIdNavPartant  String    @unique // Internal tracking ID
+  numPartant            Int
+  chevalNom             String
+  chevalUuid            String
+  numPlaceArrivee       String
+  textePlaceArrivee     String
+  
+  // GPS Data - Speed
+  vmax                  Float     // Maximum speed (km/h)
+  
+  // GPS Data - Times
+  tempsOfficiel         String    // Official time (MM'SS''CC)
+  derniers600m          String    // Last 600m sectional
+  derniers200m          String    // Last 200m sectional
+  derniers100m          String    // Last 100m sectional
+  
+  // GPS Data - Position
+  posMoy                Int       // Average position during race
+  posMiCourse           Int       // Position at mid-race
+  
+  // GPS Data - Distance
+  distanceParcouru      Float     // Distance traveled (meters)
+  parcouruVs1er         Float     // Distance vs winner (meters)
+  
+  // Metadata
+  active                Int       // Active flag (1 = active, 0 = inactive)
+  trackingCreatedAt     String    // API timestamp
+  trackingUpdatedAt     String    // API timestamp
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@unique([raceId, numPartant])
+  @@index([raceId])
+  @@index([chevalUuid])
+  @@index([trackingIdNavPartant])
+  @@index([vmax])
+  @@index([posMoy])
+}
+
+// ==========================================
+// HORSE HISTORY
+// ==========================================
+
+model HorseHistory {
+  id                        String    @id @default(cuid())
+  
+  horseId                   String
+  horse                     Horse     @relation(fields: [horseId], references: [id])
+  
+  // Race Info
+  raceGuid                  String
+  raceUuid                  String
+  dateReunion               String
+  libReunion                String
+  hippodromeName            String
+  numReunion                Int
+  numCoursePmu              Int
+  
+  libcourtPrixCourse        String
+  liblongPrixCourse         String?
+  discipline                String
+  categCourse               String?
+  typeCourse                String?
+  distance                  Int
+  etatTerrain               String
+  montantTotalAllocation    String?
+  
+  // Performance
+  numPlaceArrivee           String
+  textePlaceArrivee         String
+  pdsCalcHandPartant        Float
+  oeilPartant               String
+  tempsPart                 String?
+  nomMonte                  String
+  valeur                    Float?
+  musique                   String
+  
+  // Tracking (if available)
+  vmax                      Float?
+  tempsOfficiel             String?
+  derniers600m              String?
+  derniers200m              String?
+  derniers100m              String?
+  distanceParcouru          Float?
+  posMiCourse               Int?
+  parcouruVs1er             Float?
+  
+  // Analysis
+  notulePartantText         String?
+  notuleAuthorFirstname     String?
+  notuleAuthorLastname      String?
+  
+  createdAt                 DateTime  @default(now())
+  updatedAt                 DateTime  @updatedAt
+  
+  @@unique([horseId, raceGuid])
+  @@index([horseId])
+  @@index([dateReunion])
+  @@index([raceGuid])
+}
+
+// ==========================================
+// REFERENCES & MEDIA
+// ==========================================
+
+model Reference {
+  id                    String    @id @default(cuid())
+  
+  raceId                String
+  race                  Race      @relation(fields: [raceId], references: [id])
+  
+  referenceType         String    // "references", "favoris", "most_common", "same_prix", "same_conditions", "best_associations"
+  
+  // Reference Race Info
+  referenceGuid         String?
+  dateReunion           String
+  libReunion            String
+  hippodromeName        String
+  numReunion            Int
+  numCoursePmu          Int
+  
+  libcourtPrixCourse    String
+  discipline            String
+  distance              Int
+  heureDepartCourse     String
+  
+  // Why this race is relevant
+  referenceMessage      String?   // "3 partants en commun", "Edition 2024", etc.
+  
+  // Media
+  photoPath             String?
+  photoFinish           String?
+  videoId               String?   // Video replay identifier
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@index([raceId])
+  @@index([referenceType])
+  @@index([referenceGuid])
+  @@index([videoId])
+}
+
+model PhotoGallery {
+  id                String    @id @default(cuid())
+  
+  raceId            String
+  race              Race      @relation(fields: [raceId], references: [id])
+  
+  url               String
+  runner            Int?
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([raceId])
+}
+
+model Article {
+  id                    String    @id @default(cuid())
+  
+  raceId                String
+  race                  Race      @relation(fields: [raceId], references: [id])
+  
+  // Identifiers
+  uuid                  String    @unique
+  slug                  String    @unique
+  
+  // Type & Status
+  type                  String    // "Classique", "Interview"
+  commentsEnabled       Boolean   @default(true)
+  isNextQrcode          Boolean   @default(false)
+  status                String    @default("published")
+  
+  // Images
+  imageALaUneSlug       String
+  imageALaUneUpdatedAt  String
+  imagePath             String    // Full processed URL
+  imagePreviewPath      String?   // Optional preview
+  urlImageArticle       String    // Final URL
+  
+  // Content (French)
+  title                 String
+  chapo                 String    @default("") // Summary/excerpt
+  publishedAt           String
+  
+  // Author
+  authorFirstname       String
+  authorLastname        String
+  authorIsJournalist    Boolean   @default(true)
+  
+  // Category
+  categoryUuid          String
+  categoryName          String
+  categorySlug          String
+  
+  // Relations
+  tags                  ArticleTag[]
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@index([raceId])
+  @@index([slug])
+  @@index([uuid])
+  @@index([type])
+  @@index([publishedAt])
+  @@index([categorySlug])
+}
+
+model ArticleTag {
+  id                String    @id @default(cuid())
+  
+  articleId         String
+  article           Article   @relation(fields: [articleId], references: [id])
+  
+  // Tag Info
+  tagUuid           String
+  name              String
+  slug              String
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([articleId])
+  @@index([slug])
+  @@index([tagUuid])
+}
+
+// ==========================================
+// LIVE ODDS (Pari Simple)
+// ==========================================
+
+model PariSimple {
+  id                    String    @id @default(cuid())
+  
+  raceId                String
+  race                  Race      @relation(fields: [raceId], references: [id])
+  
+  // Horse Info
+  chevalNom             String
+  chevalUuid            String
+  numPartant            Int
+  intentionDeferrer     String    // "ferré des 4", "déferré des 4"
+  
+  // Current Odds
+  channel               String    // "OFF", "ON"
+  rappRef               Float     // Reference odds (morning line)
+  rappEvol              Float     // Current odds (evolving)
+  favori                Boolean   @default(false)
+  tendanceSigne         String    // "+", "-", "="
+  heureRapEvol          String    // Last update timestamp
+  
+  // Historical data stored as JSON
+  history               String    // JSON array of {rapp_evol, montant_enjeu_total}
+  
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  @@unique([raceId, numPartant])
+  @@index([raceId])
+  @@index([chevalUuid])
+  @@index([favori])
+  @@index([rappEvol])
+}
+
+// ==========================================
+// HELPER MODELS
+// ==========================================
+
+// For storing raw API responses (debugging/audit)
+model ApiCache {
+  id                String    @id @default(cuid())
+  
+  endpoint          String
+  params            String    // JSON
+  response          String    // JSON
+  
+  expiresAt         DateTime
+  createdAt         DateTime  @default(now())
+  
+  @@index([endpoint])
+  @@index([expiresAt])
+}
+
+// For tracking data sync status
+model SyncStatus {
+  id                String    @id @default(cuid())
+  
+  entityType        String    // "race", "horse", "reunion"
+  entityId          String
+  lastSyncAt        DateTime
+  status            String    // "success", "error", "pending"
+  errorMessage      String?
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@unique([entityType, entityId])
+  @@index([entityType])
+  @@index([lastSyncAt])
+}
+
+// Relation table for Horse-Trainer (many-to-many over time)
+model HorseTrainer {
+  horseId           String
+  trainerId         String
+  horse             Horse     @relation("HorseTrainer", fields: [horseId], references: [id])
+  trainer           Trainer   @relation(fields: [trainerId], references: [id])
+  
+  startDate         String
+  endDate           String?
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@id([horseId, trainerId, startDate])
+  @@index([horseId])
+  @@index([trainerId])
+}
+
+// ==========================================
+// CHATBOT & CONVERSATION
+// ==========================================
+
+model ChatSession {
+  id                String    @id @default(cuid())
+  
+  // Session Info
+  sessionId         String    @unique // Client-generated or server-generated
+  userId            String?   // Optional user ID for logged-in users
+  
+  // Context
+  currentRaceGuid   String?   // Current race being discussed
+  currentHorseSlug  String?   // Current horse being discussed
+  
+  // Metadata
+  lastActivityAt    DateTime  @default(now())
+  expiresAt         DateTime  // Auto-expire after 24h
+  
+  // Relations
+  messages          ChatMessage[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@index([sessionId])
+  @@index([userId])
+  @@index([currentRaceGuid])
+  @@index([expiresAt])
+}
+
+model ChatMessage {
+  id                String    @id @default(cuid())
+  
+  sessionId         String
+  session           ChatSession @relation(fields: [sessionId], references: [sessionId], onDelete: Cascade)
+  
+  // Message
+  role              String    // "user", "assistant", "system"
+  content           String    // Message text
+  
+  // Context at time of message
+  raceGuid          String?   // Race context
+  horseSlug         String?   // Horse context
+  
+  // Metadata
+  tokens            Int?      // Token count (if using AI)
+  model             String?   // AI model used
+  
+  createdAt         DateTime  @default(now())
+  
+  @@index([sessionId])
+  @@index([role])
+  @@index([createdAt])
+}

@@ -1,0 +1,46 @@
+import { RaceParams } from '../../../domain/value-objects/RaceParams';
+import { IEquidiaService } from '../../../domain/interfaces/IEquidiaService';
+import { ICacheManager } from '../../../domain/interfaces/ICacheManager';
+import { IRaceRepository } from '../../../domain/interfaces/IRaceRepository';
+import * as Types from '../../../shared/types/types';
+
+export class GetPronosticUseCase {
+  constructor(
+    private equidiaService: IEquidiaService,
+    private cacheManager: ICacheManager,
+    private raceRepository: IRaceRepository
+  ) {}
+
+  async execute(params: RaceParams): Promise<Types.PronosticResponse> {
+    const cacheKey = `race:pronostic:${params.toGuid()}`;
+    const guid = params.toGuid();
+
+    // Try cache first
+    const cached = await this.cacheManager.get<Types.PronosticResponse>(cacheKey);
+    if (cached) return cached;
+
+    // Try database second
+    const hasPronostic = await this.raceRepository.hasPronostic(guid);
+    if (hasPronostic) {
+      const dbRace = await this.raceRepository.findByGuid(guid);
+      if (dbRace?.pronostic) {
+        const dbPronostic = dbRace.pronostic as Types.PronosticResponse;
+        await this.cacheManager.set(cacheKey, dbPronostic, 30);
+        return dbPronostic;
+      }
+    }
+
+    // Fetch from API
+    const pronostic = await this.equidiaService.getPronostic(params);
+
+    // Save to database (async, don't wait)
+    this.raceRepository.savePronostic(guid, pronostic).catch(err => {
+      console.error('[USE CASE] Failed to save pronostic:', err.message);
+    });
+
+    // Cache the result
+    await this.cacheManager.set(cacheKey, pronostic, 30);
+
+    return pronostic;
+  }
+}

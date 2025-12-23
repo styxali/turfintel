@@ -1,0 +1,1 @@
+{"version":3,"file":"videoRoutes.d.ts","sourceRoot":"","sources":["../../../../src/infrastructure/http/routes/videoRoutes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AACjC,OAAO,EAAE,eAAe,EAAE,MAAM,gCAAgC,CAAC;AAEjE,wBAAgB,iBAAiB,CAAC,eAAe,EAAE,eAAe,GAAG,MAAM,CAO1E"}

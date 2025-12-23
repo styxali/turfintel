@@ -1,0 +1,1 @@
+{"version":3,"file":"RaceParams.d.ts","sourceRoot":"","sources":["../../../src/domain/value-objects/RaceParams.ts"],"names":[],"mappings":"AACA,qBAAa,UAAU;aAEH,IAAI,EAAE,MAAM;aACZ,OAAO,EAAE,MAAM;aACf,MAAM,EAAE,MAAM;gBAFd,IAAI,EAAE,MAAM,EACZ,OAAO,EAAE,MAAM,EACf,MAAM,EAAE,MAAM;IAKhC,OAAO,CAAC,QAAQ;IAchB,MAAM,IAAI,MAAM;IAKhB,MAAM,CAAC,SAAS,CAAC,KAAK,EAAE,GAAG,GAAG,UAAU;CAazC"}

@@ -1,0 +1,2933 @@
+{
+  "type": "Trot",
+  "date": "2025-12-15",
+  "reunion": "R2",
+  "course": "C1",
+  "courseDetails": {
+    "reunion": {
+      "lib_reunion": "LE MANS",
+      "meteo_vent_direction": {
+        "label": "Sud"
+      },
+      "meteo_nebulosite_code": "P5",
+      "meteo_nebulosite_libelle_court": "Très Nuageux",
+      "audience": {
+        "label": "Nationale sans evenement",
+        "code": "N",
+        "uuid": "890ea31c-32f0-4e0a-a161-96c24e245d40"
+      },
+      "hippodrome": {
+        "name": "HIPPODROME DU MANS",
+        "country_code": "FRA"
+      },
+      "date_reunion": "2025-12-15",
+      "num_reunion": 2,
+      "specialite_reunion": "Trot",
+      "ind_reu_csi": false,
+      "meteo_temperature": "13",
+      "meteo_vent_force": "23",
+      "is_pmh": false,
+      "is_premium": true,
+      "flux_url": "racing2",
+      "flux_type": "RACING",
+      "flux_active": true
+    },
+    "pari_courses": [
+      {
+        "pari_type": {
+          "code_pari": "1",
+          "titre": "Simple gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "2",
+          "titre": "Simple placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "20",
+          "titre": "Multi"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "3",
+          "titre": "Couplé gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "4",
+          "titre": "Couplé placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "43",
+          "titre": "e-Simple Gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "44",
+          "titre": "e-Simple Placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "45",
+          "titre": "e-Couplé Gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "46",
+          "titre": "e-Couplé Placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "48",
+          "titre": "e-2sur4"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "49",
+          "titre": "e-Trio"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "55",
+          "titre": "e-Multi"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "8",
+          "titre": "2 sur 4"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "9",
+          "titre": "Trio"
+        },
+        "audience": "Nationale"
+      }
+    ],
+    "pays": {
+      "code": "FRA",
+      "label": "France"
+    },
+    "libcourt_prix_course": "SAS GUYON",
+    "liblong_prix_course": "PRIX SAS GUYON METAL ALU",
+    "lib_corde_course": "Corde à gauche",
+    "discipline": "Monté",
+    "conditions_txt_course": "PRIX SAS GUYON METAL ALU                                                     Course 1 Course E 20.000. - Monté. - 2.950 mètres. 9.000, 5.000, 2.800, 1.600, 1.000, 400, 200.- alloués par la S.E.T.F. Pour 4 ans, n'ayant pas gagné 38.000. - Recul de 25 m. à 19.000. Avantage de poids (voir Conditions Générales).",
+    "distance": 2950,
+    "parcours": {
+      "updated_at": "2025-12-13T11:39:51+01:00",
+      "slug": "20251215_man-r2c1-png"
+    },
+    "is_quinte_plus": false,
+    "is_quinte_new": false,
+    "heure_depart_course": "11:45",
+    "num_course_pmu": 1,
+    "nbdeclare_course": 18,
+    "statut_course_id": 16,
+    "ind_cei": false,
+    "is_pmh": false,
+    "categ_course": "Course E",
+    "video_course_id": "1049307",
+    "video_course_url_video": "20251215/41265958_00000HR.mp4",
+    "video_course_duree_video": "04:36",
+    "montant_total_allocation": "20.000 euros",
+    "lib_piste_course": "Sable",
+    "tracked": false,
+    "world_pool": false,
+    "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251215_41265958_00000HR-1.jpg",
+    "uuid": "97c1319f-87de-4b87-980b-ce4dd16c957f",
+    "ind_crs_csi": false,
+    "video_course_nom": "20251215_41265958_00000HR",
+    "partants": [
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p1-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "A. PEREIRA"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "A. PEREIRA"
+          },
+          "nom_cheval": "LA VIE EN ROSE",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "DM6A8M6M3M8A8AAA7ADA",
+          "gains_carriere": 4305,
+          "slug": "la-vie-en-rose-4",
+          "uuid": "9fc70d4a-970b-4474-af9e-a498fb65f17c",
+          "nom_entraineur": "A. PEREIRA",
+          "nom_proprietaire": "A. PEREIRA"
+        },
+        "monte": {
+          "nom_monte": "M. DURVILLE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "3",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "A. PEREIRA"
+        },
+        "num_partant": 1,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 4305,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "4955f48c-039f-44f4-94fa-5507b8c9b940"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p2-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "F. GENCE"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "EC.J. MOUCHARD"
+          },
+          "nom_cheval": "LUNICK DE FORGAN",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "4M5MDMDMDADA3ADA3A8A",
+          "gains_carriere": 6705,
+          "slug": "lunick-de-forgan",
+          "uuid": "cf707d9a-0c28-438a-9b96-5274a012bacc",
+          "nom_entraineur": "F. GENCE",
+          "nom_proprietaire": "EC.J. MOUCHARD"
+        },
+        "monte": {
+          "nom_monte": "F. GENCE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "6",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "06",
+        "temps_part": "3'43\"77",
+        "reduction_km": "1'15\"90",
+        "entraineur": {
+          "nom_entraineur": "F. GENCE"
+        },
+        "num_partant": 2,
+        "texte_place_arrivee": "06",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 6705,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": true,
+        "uuid": "3dc6d32b-9500-466c-80ba-c193dda68059"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p3-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "G. MOINON"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "G. MOINON"
+          },
+          "nom_cheval": "LASCAR DU RENARD",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "0ADADADMDM8MDM5M2M4M",
+          "gains_carriere": 9470,
+          "slug": "lascar-du-renard",
+          "uuid": "528c1d71-eeb7-411c-aa5f-fc1335deb466",
+          "nom_entraineur": "G. MOINON",
+          "nom_proprietaire": "G. MOINON"
+        },
+        "monte": {
+          "nom_monte": "MLLE M. COLAS"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "1",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "10",
+        "temps_part": "3'50\"52",
+        "reduction_km": "1'18\"10",
+        "entraineur": {
+          "nom_entraineur": "G. MOINON"
+        },
+        "num_partant": 3,
+        "texte_place_arrivee": "10",
+        "pds_calc_hand_partant": 62,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 9470,
+        "deferrer_partant_first_time": true,
+        "oeil_partant_first_time": false,
+        "uuid": "b1a7a956-76ad-4508-bfd1-39829e2c6150"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p4-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "MME A.F. DONATI MARCILLAC"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE MARCILLAC"
+          },
+          "nom_cheval": "LORENZO DAIRPET",
+          "sexe_cheval": "M",
+          "age_cheval": 4,
+          "musique": "DMDADA8A8ADA6ADADA(24)",
+          "gains_carriere": 11130,
+          "slug": "lorenzo-dairpet",
+          "uuid": "a3d1d4e1-5770-4d93-91ff-0dada33edf9b",
+          "nom_entraineur": "MME A.F. DONATI MARCILLAC",
+          "nom_proprietaire": "ECURIE MARCILLAC"
+        },
+        "monte": {
+          "nom_monte": "MLLE ALEXIANE LEPAGE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "2",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "MME A.F. DONATI MARCILLAC"
+        },
+        "num_partant": 4,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 62,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "M",
+        "gains_carriere": 11130,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "16313bbe-41d2-4779-8e57-a23d8cfcbdc2"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p5-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "A. LEDUC"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE ARNAUD LEDUC"
+          },
+          "nom_cheval": "LAVE DE COSSE",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "2MDADA4A1A7A7ADADADA",
+          "gains_carriere": 13360,
+          "slug": "lave-de-cosse",
+          "uuid": "83fb0269-950b-478c-8922-39fa1eb0ed66",
+          "nom_entraineur": "A. LEDUC",
+          "nom_proprietaire": "ECURIE ARNAUD LEDUC"
+        },
+        "monte": {
+          "nom_monte": "AURELIEN DESMARRES"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "2",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "09",
+        "temps_part": "3'46\"28",
+        "reduction_km": "1'16\"70",
+        "entraineur": {
+          "nom_entraineur": "A. LEDUC"
+        },
+        "num_partant": 5,
+        "texte_place_arrivee": "09",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 13360,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "37247c8e-56cc-4551-8874-78d241ffc0b7"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p6-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "B. CHANONAT"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "MLLE L. COATLEVEN"
+          },
+          "nom_cheval": "LIESSE DU CHENE",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "6A2MDA6A8ADA2A5A6M9M",
+          "gains_carriere": 15305,
+          "slug": "liesse-du-chene",
+          "uuid": "561ed262-c79a-4cbd-9fc4-d93f31c3ab0d",
+          "nom_entraineur": "B. CHANONAT",
+          "nom_proprietaire": "MLLE L. COATLEVEN"
+        },
+        "monte": {
+          "nom_monte": "A. REBECHE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "03",
+        "temps_part": "3'42\"64",
+        "reduction_km": "1'15\"50",
+        "entraineur": {
+          "nom_entraineur": "B. CHANONAT"
+        },
+        "num_partant": 6,
+        "texte_place_arrivee": "03",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 15305,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "87513dee-6f5f-4576-a6d7-41f06077c93e"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p7-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "J.L.CL. DERSOIR"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE JELOCA"
+          },
+          "nom_cheval": "LISON DES GLENAN",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "4MDADA8A5A7A5A(24)7A5A",
+          "gains_carriere": 17625,
+          "slug": "lison-des-glenan",
+          "uuid": "45e63493-bbf2-4be8-82e7-cc4374e98296",
+          "nom_entraineur": "J.L.CL. DERSOIR",
+          "nom_proprietaire": "ECURIE JELOCA"
+        },
+        "monte": {
+          "nom_monte": "J.L.CL. DERSOIR"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "5",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "02",
+        "temps_part": "3'42\"27",
+        "reduction_km": "1'15\"30",
+        "entraineur": {
+          "nom_entraineur": "J.L.CL. DERSOIR"
+        },
+        "num_partant": 7,
+        "texte_place_arrivee": "02",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 17625,
+        "deferrer_partant_first_time": true,
+        "oeil_partant_first_time": false,
+        "uuid": "34c34d1c-2c05-4f02-b2f1-2fc894b986c7"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p8-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "L. GUILLEMIN"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "JEAN PIERRE GALLOU"
+          },
+          "nom_cheval": "LUCKY DE POMMERAY",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "8ADADA3A3A3A6A1ADA2A",
+          "gains_carriere": 17805,
+          "slug": "lucky-de-pommeray",
+          "uuid": "ce3b3e07-e691-40b9-a412-efb55fb546f3",
+          "nom_entraineur": "L. GUILLEMIN",
+          "nom_proprietaire": "JEAN PIERRE GALLOU"
+        },
+        "monte": {
+          "nom_monte": "P.PH. PLOQUIN"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "L. GUILLEMIN"
+        },
+        "num_partant": 8,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 17805,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "abe02e5f-a676-4e8b-8737-4f728ba0fa5e"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p9-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "LOIC GROUSSARD"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "LOIC GROUSSARD"
+          },
+          "nom_cheval": "LOKO",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "DA5M2M3M3M2MDADA6M3M",
+          "gains_carriere": 18830,
+          "slug": "loko",
+          "uuid": "57cc8b98-4688-4b6a-84fc-57272ded3deb",
+          "nom_entraineur": "LOIC GROUSSARD",
+          "nom_proprietaire": "LOIC GROUSSARD"
+        },
+        "monte": {
+          "nom_monte": "MARTIAL VIEL"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2950",
+        "deferrer_partant": "2",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "05",
+        "temps_part": "3'43\"50",
+        "reduction_km": "1'15\"80",
+        "entraineur": {
+          "nom_entraineur": "LOIC GROUSSARD"
+        },
+        "num_partant": 9,
+        "texte_place_arrivee": "05",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 18830,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "622d428a-6575-42d8-b303-d800b36ddf2b"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p10-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "CH. CHALON"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE CHALON"
+          },
+          "nom_cheval": "L'AS TEJY",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "DM6M5M0A8ADA6M6M1M(24)",
+          "gains_carriere": 25730,
+          "slug": "las-tejy",
+          "uuid": "1e85033a-531f-4e8e-a3fd-0bf777ed5c1c",
+          "nom_entraineur": "CH. CHALON",
+          "nom_proprietaire": "ECURIE CHALON"
+        },
+        "monte": {
+          "nom_monte": "A. GENDROT"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "4",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "CH. CHALON"
+        },
+        "num_partant": 10,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 25730,
+        "deferrer_partant_first_time": true,
+        "oeil_partant_first_time": true,
+        "uuid": "f2361e01-49b2-4f62-9252-7d5242a8315d"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p11-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "J. CERISIER"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "J. COTTEL"
+          },
+          "nom_cheval": "LUTHER",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "5MDADM7MDM2MDM(24)DMDM",
+          "gains_carriere": 28900,
+          "slug": "luther",
+          "uuid": "aa850477-4308-416b-a2bc-0c81db176148",
+          "nom_entraineur": "J. CERISIER",
+          "nom_proprietaire": "J. COTTEL"
+        },
+        "monte": {
+          "nom_monte": "J. CERISIER"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "J. CERISIER"
+        },
+        "num_partant": 11,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 28900,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "2a271625-4a02-4a77-b20c-06beaa7c49c4"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p12-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "C. PILFERT"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "MLLE SANDRINE BELLESSORT"
+          },
+          "nom_cheval": "LOOPING DU PERRE",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "8M3M5M5M3M4M2M5A5M4A",
+          "gains_carriere": 30615,
+          "slug": "looping-du-perre",
+          "uuid": "480faf84-4dff-4a45-909c-80d2dc5c94d4",
+          "nom_entraineur": "C. PILFERT",
+          "nom_proprietaire": "MLLE SANDRINE BELLESSORT"
+        },
+        "monte": {
+          "nom_monte": "A. COLLETTE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "11",
+        "temps_part": "3'53\"02",
+        "reduction_km": "1'18\"30",
+        "entraineur": {
+          "nom_entraineur": "C. PILFERT"
+        },
+        "num_partant": 12,
+        "texte_place_arrivee": "11",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 30615,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "bc4e113f-cbc6-4784-942b-10610422cb94"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p13-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "G. LEFROU"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "CL. CAYLA"
+          },
+          "nom_cheval": "L'APPASSIONATO",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "8M0A7MDA5MDM8M4M6M9M",
+          "gains_carriere": 30965,
+          "slug": "lappassionato",
+          "uuid": "a74cfa77-1bf1-4e6c-9f57-f8ee3b6f9f5f",
+          "nom_entraineur": "G. LEFROU",
+          "nom_proprietaire": "CL. CAYLA"
+        },
+        "monte": {
+          "nom_monte": "O. PLACIER"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "3",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "G. LEFROU"
+        },
+        "num_partant": 13,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 30965,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "c7ccce15-04cf-4470-91b7-b59f3d1609b6"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p14-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "N. BINET"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "N. BINET"
+          },
+          "nom_cheval": "LORENCE CLOSJASMIN",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "6MDM3M6M2M1M1M6A7ADA",
+          "gains_carriere": 33065,
+          "slug": "lorence-closjasmin",
+          "uuid": "c951f9f8-b94d-44f3-8d1b-18f7c1e07838",
+          "nom_entraineur": "N. BINET",
+          "nom_proprietaire": "N. BINET"
+        },
+        "monte": {
+          "nom_monte": "M. CHAMPENOIS"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "6",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "01",
+        "temps_part": "3'41\"41",
+        "reduction_km": "1'14\"40",
+        "entraineur": {
+          "nom_entraineur": "N. BINET"
+        },
+        "num_partant": 14,
+        "texte_place_arrivee": "01",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 33065,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "2711d198-0a57-4283-b2ca-1bcf06bd0955"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p15-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "F. LAMARE"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "MME M. DUJARDIN"
+          },
+          "nom_cheval": "LAGON D'ORIENT",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "DMDM2M1MDADADA0ADA5A",
+          "gains_carriere": 33730,
+          "slug": "lagon-dorient",
+          "uuid": "3b18fde3-f019-4dde-9d3e-42420e3c2a30",
+          "nom_entraineur": "F. LAMARE",
+          "nom_proprietaire": "MME M. DUJARDIN"
+        },
+        "monte": {
+          "nom_monte": "B. ROCHARD"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "08",
+        "temps_part": "3'45\"00",
+        "reduction_km": "1'15\"60",
+        "entraineur": {
+          "nom_entraineur": "F. LAMARE"
+        },
+        "num_partant": 15,
+        "texte_place_arrivee": "08",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 33730,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "f5ca2159-ed3e-4865-8e26-6713f3a8ea65"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p16-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "NICOLAS RICHARD BROSSARD"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE DE NARMONT"
+          },
+          "nom_cheval": "LUGOS DE MONTAURAN",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "4MDADM3M1M4M2M4MDMDA",
+          "gains_carriere": 35540,
+          "slug": "lugos-de-montauran",
+          "uuid": "87015dc2-c6a2-448f-8e86-4a18270b0d90",
+          "nom_entraineur": "NICOLAS RICHARD BROSSARD",
+          "nom_proprietaire": "ECURIE DE NARMONT"
+        },
+        "monte": {
+          "nom_monte": "G. LENAIN"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "3",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "07",
+        "temps_part": "3'43\"80",
+        "reduction_km": "1'15\"20",
+        "entraineur": {
+          "nom_entraineur": "NICOLAS RICHARD BROSSARD"
+        },
+        "num_partant": 16,
+        "texte_place_arrivee": "07",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 35540,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "cc3a3170-cdc3-4e1a-8eeb-4cd8c891ca4a"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p17-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "J.PH. RAFFEGEAU"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "CH. GERMAIN"
+          },
+          "nom_cheval": "LUCIOLA DE LOU",
+          "sexe_cheval": "F",
+          "age_cheval": 4,
+          "musique": "4M3M4M4M0A8M4M5M8M2M",
+          "gains_carriere": 37130,
+          "slug": "luciola-de-lou",
+          "uuid": "b71161de-dfdb-4630-ab02-95292246f86b",
+          "nom_entraineur": "J.PH. RAFFEGEAU",
+          "nom_proprietaire": "CH. GERMAIN"
+        },
+        "monte": {
+          "nom_monte": "J.Y. RICART"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "3",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "04",
+        "temps_part": "3'42\"75",
+        "reduction_km": "1'14\"90",
+        "entraineur": {
+          "nom_entraineur": "J.PH. RAFFEGEAU"
+        },
+        "num_partant": 17,
+        "texte_place_arrivee": "04",
+        "pds_calc_hand_partant": 61,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 2,
+        "libelle_avis_entraineur": "Avis neutre",
+        "age_cheval": 4,
+        "sexe_cheval": "F",
+        "gains_carriere": 37130,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": true,
+        "uuid": "d9bfb62c-9c34-4be0-82d6-00aeaa5ceaac"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:20:27+01:00",
+          "slug": "20251215-r2c1p18-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "W. BIGEON"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "J. SECHE"
+          },
+          "nom_cheval": "L'IDEALISTE",
+          "sexe_cheval": "H",
+          "age_cheval": 4,
+          "musique": "4MDM7A3A2M1MDA3A2A1A",
+          "gains_carriere": 37695,
+          "slug": "lidealiste-1",
+          "uuid": "b340c2f6-bbc3-421f-a7fe-e561200ee36a",
+          "nom_entraineur": "W. BIGEON",
+          "nom_proprietaire": "J. SECHE"
+        },
+        "monte": {
+          "nom_monte": "D. BONNE"
+        },
+        "oeil_partant": "N",
+        "dist_partant": "2975",
+        "deferrer_partant": "3",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "W. BIGEON"
+        },
+        "num_partant": 18,
+        "texte_place_arrivee": "Disqualifié",
+        "pds_calc_hand_partant": 63,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "code_avis_entraineur": 1,
+        "libelle_avis_entraineur": "Avis positif",
+        "age_cheval": 4,
+        "sexe_cheval": "H",
+        "gains_carriere": 37695,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": true,
+        "uuid": "3efcb12d-7679-4c26-896c-8c8249cd22d9"
+      }
+    ],
+    "enjeu_s_g": {
+      "montant": 90581
+    },
+    "type_statut_course_id": "finished",
+    "last_minutes": [],
+    "editorial_contents": [],
+    "groupe": "",
+    "description": "COURSE E",
+    "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_000261.png",
+    "photo_gallery": [
+      {
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_000261.png"
+      },
+      {
+        "runner": 3736912,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_000248.png"
+      },
+      {
+        "runner": 3736912,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_14_000262.png"
+      },
+      {
+        "runner": 3736905,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_7_000265.png"
+      },
+      {
+        "runner": 3736904,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_6_000267.png"
+      },
+      {
+        "runner": 3736915,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_MAN/20251215_MAN_1/20251215_MAN_1_17_000271.png"
+      }
+    ]
+  },
+  "pronostic": {
+    "pronostic_analyses": [
+      {
+        "cheval": {
+          "nom_cheval": "LORENZO DAIRPET",
+          "slug": "lorenzo-dairpet",
+          "uuid": "a3d1d4e1-5770-4d93-91ff-0dada33edf9b",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p4-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p4-png"
+          },
+          "num_partant": 4,
+          "uuid": "16313bbe-41d2-4779-8e57-a23d8cfcbdc2"
+        },
+        "position": 16,
+        "note_numerique": 1,
+        "cote_journaliste": 35,
+        "num_partant": 4
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LIESSE DU CHENE",
+          "slug": "liesse-du-chene",
+          "uuid": "561ed262-c79a-4cbd-9fc4-d93f31c3ab0d",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p6-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p6-png"
+          },
+          "num_partant": 6,
+          "uuid": "87513dee-6f5f-4576-a6d7-41f06077c93e"
+        },
+        "position": 14,
+        "note_numerique": 1,
+        "cote_journaliste": 31,
+        "num_partant": 6
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LAGON D'ORIENT",
+          "slug": "lagon-dorient",
+          "uuid": "3b18fde3-f019-4dde-9d3e-42420e3c2a30",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p15-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p15-png"
+          },
+          "num_partant": 15,
+          "uuid": "f5ca2159-ed3e-4865-8e26-6713f3a8ea65"
+        },
+        "position": 7,
+        "note_numerique": 2,
+        "cote_journaliste": 15,
+        "num_partant": 15,
+        "analysis_horse": "Son potentiel est connu mais il reste délicat en compétition."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LUTHER",
+          "slug": "luther",
+          "uuid": "aa850477-4308-416b-a2bc-0c81db176148",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p11-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p11-png"
+          },
+          "num_partant": 11,
+          "uuid": "2a271625-4a02-4a77-b20c-06beaa7c49c4"
+        },
+        "position": 11,
+        "note_numerique": 1,
+        "cote_journaliste": 24,
+        "num_partant": 11
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LUCKY DE POMMERAY",
+          "slug": "lucky-de-pommeray",
+          "uuid": "ce3b3e07-e691-40b9-a412-efb55fb546f3",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p8-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p8-png"
+          },
+          "num_partant": 8,
+          "uuid": "abe02e5f-a676-4e8b-8737-4f728ba0fa5e"
+        },
+        "position": 9,
+        "note_numerique": 1,
+        "cote_journaliste": 20,
+        "num_partant": 8
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LOOPING DU PERRE",
+          "slug": "looping-du-perre",
+          "uuid": "480faf84-4dff-4a45-909c-80d2dc5c94d4",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p12-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p12-png"
+          },
+          "num_partant": 12,
+          "uuid": "bc4e113f-cbc6-4784-942b-10610422cb94"
+        },
+        "position": 6,
+        "note_numerique": 2,
+        "cote_journaliste": 13,
+        "num_partant": 12,
+        "analysis_horse": "Une chose est sûre, il va encore donner le meilleur de lui-même."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LISON DES GLENAN",
+          "slug": "lison-des-glenan",
+          "uuid": "45e63493-bbf2-4be8-82e7-cc4374e98296",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p7-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p7-png"
+          },
+          "num_partant": 7,
+          "uuid": "34c34d1c-2c05-4f02-b2f1-2fc894b986c7"
+        },
+        "position": 15,
+        "note_numerique": 1,
+        "cote_journaliste": 33,
+        "num_partant": 7
+      },
+      {
+        "cheval": {
+          "nom_cheval": "L'AS TEJY",
+          "slug": "las-tejy",
+          "uuid": "1e85033a-531f-4e8e-a3fd-0bf777ed5c1c",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p10-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p10-png"
+          },
+          "num_partant": 10,
+          "uuid": "f2361e01-49b2-4f62-9252-7d5242a8315d"
+        },
+        "position": 12,
+        "note_numerique": 1,
+        "cote_journaliste": 26,
+        "num_partant": 10
+      },
+      {
+        "cheval": {
+          "nom_cheval": "L'APPASSIONATO",
+          "slug": "lappassionato",
+          "uuid": "a74cfa77-1bf1-4e6c-9f57-f8ee3b6f9f5f",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p13-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p13-png"
+          },
+          "num_partant": 13,
+          "uuid": "c7ccce15-04cf-4470-91b7-b59f3d1609b6"
+        },
+        "position": 17,
+        "note_numerique": 1,
+        "cote_journaliste": 37,
+        "num_partant": 13
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LUGOS DE MONTAURAN",
+          "slug": "lugos-de-montauran",
+          "uuid": "87015dc2-c6a2-448f-8e86-4a18270b0d90",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p16-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p16-png"
+          },
+          "num_partant": 16,
+          "uuid": "cc3a3170-cdc3-4e1a-8eeb-4cd8c891ca4a"
+        },
+        "position": 3,
+        "note_numerique": 2,
+        "cote_journaliste": 7,
+        "num_partant": 16,
+        "analysis_horse": "Depuis cet été, il n'arrête pas de progresser. Aussi, il peut viser le podium."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LUCIOLA DE LOU",
+          "slug": "luciola-de-lou",
+          "uuid": "b71161de-dfdb-4630-ab02-95292246f86b",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p17-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p17-png"
+          },
+          "num_partant": 17,
+          "uuid": "d9bfb62c-9c34-4be0-82d6-00aeaa5ceaac"
+        },
+        "position": 5,
+        "note_numerique": 2,
+        "cote_journaliste": 11,
+        "num_partant": 17,
+        "analysis_horse": "Au mieux et régulière, une place est largement possible."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LASCAR DU RENARD",
+          "slug": "lascar-du-renard",
+          "uuid": "528c1d71-eeb7-411c-aa5f-fc1335deb466",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p3-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p3-png"
+          },
+          "num_partant": 3,
+          "uuid": "b1a7a956-76ad-4508-bfd1-39829e2c6150"
+        },
+        "position": 18,
+        "note_numerique": 1,
+        "cote_journaliste": 39,
+        "num_partant": 3
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LORENCE CLOSJASMIN",
+          "slug": "lorence-closjasmin",
+          "uuid": "c951f9f8-b94d-44f3-8d1b-18f7c1e07838",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p14-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p14-png"
+          },
+          "num_partant": 14,
+          "uuid": "2711d198-0a57-4283-b2ca-1bcf06bd0955"
+        },
+        "position": 4,
+        "note_numerique": 2,
+        "cote_journaliste": 9,
+        "num_partant": 14,
+        "analysis_horse": "Elle vient de prouver à plusieurs reprises qu'elle pouvait avoir ici de grandes ambitions."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LOKO",
+          "slug": "loko",
+          "uuid": "57cc8b98-4688-4b6a-84fc-57272ded3deb",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p9-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p9-png"
+          },
+          "num_partant": 9,
+          "uuid": "622d428a-6575-42d8-b303-d800b36ddf2b"
+        },
+        "position": 2,
+        "note_numerique": 3,
+        "cote_journaliste": 5,
+        "num_partant": 9,
+        "analysis_horse": "Idéalement placé au premier échelon et très performant sous la selle, il s'annonce redoutable."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LAVE DE COSSE",
+          "slug": "lave-de-cosse",
+          "uuid": "83fb0269-950b-478c-8922-39fa1eb0ed66",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p5-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p5-png"
+          },
+          "num_partant": 5,
+          "uuid": "37247c8e-56cc-4551-8874-78d241ffc0b7"
+        },
+        "position": 8,
+        "note_numerique": 1,
+        "cote_journaliste": 17,
+        "num_partant": 5
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LUNICK DE FORGAN",
+          "slug": "lunick-de-forgan",
+          "uuid": "cf707d9a-0c28-438a-9b96-5274a012bacc",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p2-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p2-png"
+          },
+          "num_partant": 2,
+          "uuid": "3dc6d32b-9500-466c-80ba-c193dda68059"
+        },
+        "position": 10,
+        "note_numerique": 1,
+        "cote_journaliste": 22,
+        "num_partant": 2
+      },
+      {
+        "cheval": {
+          "nom_cheval": "L'IDEALISTE",
+          "slug": "lidealiste-1",
+          "uuid": "b340c2f6-bbc3-421f-a7fe-e561200ee36a",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p18-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p18-png"
+          },
+          "num_partant": 18,
+          "uuid": "3efcb12d-7679-4c26-896c-8c8249cd22d9"
+        },
+        "position": 1,
+        "note_numerique": 3,
+        "cote_journaliste": 3,
+        "num_partant": 18,
+        "analysis_horse": "Sans incident, sur sa vraie valeur, il doit pouvoir jouer la gagne."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LA VIE EN ROSE",
+          "slug": "la-vie-en-rose-4",
+          "uuid": "9fc70d4a-970b-4474-af9e-a498fb65f17c",
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p1-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:20:27+01:00",
+            "slug": "20251215-r2c1p1-png"
+          },
+          "num_partant": 1,
+          "uuid": "4955f48c-039f-44f4-94fa-5507b8c9b940"
+        },
+        "position": 13,
+        "note_numerique": 1,
+        "cote_journaliste": 29,
+        "num_partant": 1
+      }
+    ],
+    "creator": {
+      "firstname": "STEPHANE",
+      "lastname": "MONS",
+      "photo_url": "mons-portrait-3s3a0342-jpg",
+      "is_journalist": true,
+      "class_key": 3,
+      "uuid": "f9278017-8432-459e-9b97-f44988d15301",
+      "slug": "stephane-mons"
+    },
+    "type": "analysis_by_horse",
+    "status": "published",
+    "chapeau": "Déjà vu à son avantage sur ce parcours, L'IDEALISTE (18) est un vainqueur en puissance en dépit de son rendement de distance. Au premier poteau, notre favori devra se méfier en priorité de LOKO (9) qui cherche sa course. En constants progrès, LUGOS DE MONTAURAN (16) et LORENCE CLOSJASMIN (14) s'annoncent aussi compétitifs pour le podium. Fiable, LUCIOLA DE LOU (17) est une candidature à ne surtout pas négliger. Même avec ses fers, LOOPING DU PERRE (12) est un sérieux candidat aux accessits, tout comme LAGON D'ORIENT (15), à condition qu'il reste au trot, ou encore LAVE DE COSSE (5), remarqué en dernier lieu sous la selle.",
+    "published_at": "2025-12-12T17:29:41+01:00",
+    "validated": false,
+    "difficulty": 5,
+    "uuid": "5d7d6c97-6a5c-4f65-a86d-4c6daa7d99c3",
+    "bases": [
+      18,
+      9
+    ],
+    "belles_chances": [
+      16,
+      14,
+      17,
+      12,
+      15
+    ],
+    "outsiders": [
+      5,
+      8,
+      2,
+      11,
+      10,
+      1,
+      6,
+      7,
+      4,
+      13,
+      3
+    ],
+    "delaisses": [],
+    "bet_links": {
+      "zeturf": "https://www.zeturf.fr/fr/course/2025-12-15/R2C1-equidia?prefill=12:18-9-16-14-17&pid=311&aff=202331101"
+    }
+  },
+  "notes": {
+    "code": 404,
+    "message": "No route found for \"GET /api/public/courses/2025-12-15/R2/C1/note\""
+  },
+  "pariSimple": {
+    "code": 404,
+    "message": "No route found for \"GET /api/public/courses/2025-12-15/R2/C1/pari-simple\""
+  },
+  "references": {
+    "results": {
+      "references": [],
+      "favoris": [
+        {
+          "reunion": {
+            "lib_reunion": "PONT DE VIVAUX",
+            "hippodrome": {
+              "name": "MARSEILLE PONT DE VIVAUX"
+            },
+            "date_reunion": "2025-05-31",
+            "num_reunion": 8
+          },
+          "libcourt_prix_course": "ARLES",
+          "discipline": "Attelé",
+          "distance": 2650,
+          "heure_depart_course": "20:30",
+          "num_course_pmu": 5,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250531_40062913_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LA VIE EN ROSE donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250531_40062913_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CORDEMAIS",
+            "hippodrome": {
+              "name": "CORDEMAIS"
+            },
+            "date_reunion": "2024-12-15",
+            "num_reunion": 10
+          },
+          "libcourt_prix_course": "ASS.C.H.C(GR.A)",
+          "discipline": "Attelé",
+          "distance": 2825,
+          "heure_depart_course": "12:15",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241215_39693534_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LUNICK DE FORGAN donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241215_39693534_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "RANES(Le Parc)",
+            "hippodrome": {
+              "name": "RANES(Le Parc)"
+            },
+            "date_reunion": "2024-05-20",
+            "num_reunion": 20
+          },
+          "libcourt_prix_course": "JOUE DU BOIS",
+          "discipline": "Attelé",
+          "distance": 2150,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240520_38276714_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par L'APPASSIONATO donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240520_38276714_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "PARIS-VINCENNES",
+            "hippodrome": {
+              "name": "PARIS-VINCENNES"
+            },
+            "date_reunion": "2024-05-15",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2024-05-15T15:31:17+02:00",
+            "slug": "20240515_vin-r1c3_20240515-153105-jpg"
+          },
+          "libcourt_prix_course": "L'AUBE",
+          "discipline": "Monté",
+          "distance": 2175,
+          "heure_depart_course": "15:13",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240515_38248207_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par L'AS TEJY donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240515_38248207_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "ORLEANS(Ile Arrault)",
+            "hippodrome": {
+              "name": "ORLEANS(Ile Arrault)"
+            },
+            "date_reunion": "2024-04-01",
+            "num_reunion": 18
+          },
+          "libcourt_prix_course": "GENERAL BERTRAND DE LANNURIEN",
+          "discipline": "Attelé",
+          "distance": 2200,
+          "heure_depart_course": "14:00",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240401_38049021_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LUCKY DE POMMERAY donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240401_38049021_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "ECOMMOY",
+            "hippodrome": {
+              "name": "ECOMMOY"
+            },
+            "date_reunion": "2024-03-31",
+            "num_reunion": 5
+          },
+          "libcourt_prix_course": "BURGER KING",
+          "discipline": "Attelé",
+          "distance": 2750,
+          "heure_depart_course": "14:15",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240331_38048967_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LUTHER donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240331_38048967_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "FRANCHEVILLE",
+            "hippodrome": {
+              "name": "FRANCHEVILLE"
+            },
+            "date_reunion": "2023-08-15",
+            "num_reunion": 15
+          },
+          "libcourt_prix_course": "PEARL QUEEN - READY CASH",
+          "discipline": "Attelé",
+          "distance": 2475,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20230815_36992951_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LORENZO DAIRPET donné parmi les favoris à la cote de 0.00",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20230815_36992951_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "REIMS",
+            "hippodrome": {
+              "name": "REIMS"
+            },
+            "date_reunion": "2024-06-02",
+            "num_reunion": 6
+          },
+          "photo": {
+            "updated_at": "2024-06-02T20:43:46+02:00",
+            "slug": "20240602_rei-r6c7_20240602-204336-jpg"
+          },
+          "libcourt_prix_course": "ZETURF",
+          "discipline": "Attelé",
+          "distance": 2550,
+          "heure_depart_course": "20:31",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240602_38291573_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LUCIOLA DE LOU donné favori à la cote de 2.50",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240602_38291573_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CORDEMAIS",
+            "hippodrome": {
+              "name": "CORDEMAIS"
+            },
+            "date_reunion": "2024-10-06",
+            "num_reunion": 10
+          },
+          "libcourt_prix_course": "B. FAIRAND GR.A",
+          "discipline": "Attelé",
+          "distance": 2825,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241006_39399674_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LOKO donné parmi les favoris à la cote de 5.70",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241006_39399674_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "NANTES",
+            "hippodrome": {
+              "name": "NANTES"
+            },
+            "date_reunion": "2025-02-14",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-02-14T13:21:06+01:00",
+            "slug": "20250214_pet-r3c3_20250214-124534-jpg"
+          },
+          "libcourt_prix_course": "LA ST VALENTIN",
+          "discipline": "Attelé",
+          "distance": 2275,
+          "heure_depart_course": "12:33",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250214_39706536_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par L'IDEALISTE donné parmi les favoris à la cote de 6.40",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_000197.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_000197.png"
+            },
+            {
+              "runner": 3467963,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_000191.png"
+            },
+            {
+              "runner": 3467963,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_12_000198.png"
+            },
+            {
+              "runner": 3467956,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_5_000201.png"
+            },
+            {
+              "runner": 3467952,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250214_PET/20250214_PET_3/20250214_PET_3_1_000204.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CHARTRES",
+            "hippodrome": {
+              "name": "CHARTRES"
+            },
+            "date_reunion": "2024-11-17",
+            "num_reunion": 13
+          },
+          "libcourt_prix_course": "MASCOTTE H-GR.B",
+          "discipline": "Attelé",
+          "distance": 2800,
+          "heure_depart_course": "15:10",
+          "num_course_pmu": 5,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241117_39585611_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par LAVE DE COSSE donné parmi les favoris à la cote de 8.50",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241117_39585611_00000HR-1.jpg"
+            }
+          ]
+        }
+      ],
+      "most_common": [
+        {
+          "reunion": {
+            "lib_reunion": "PARIS-VINCENNES",
+            "hippodrome": {
+              "name": "PARIS-VINCENNES"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2025-12-01T14:41:46+01:00",
+            "slug": "20251201_vin-r1c2_20251201-144133-jpg"
+          },
+          "libcourt_prix_course": "GEMOZAC",
+          "discipline": "Monté",
+          "distance": 2200,
+          "heure_depart_course": "14:25",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41197339_00000HR-1.jpg",
+          "reference_message": "4 partants en commun, dont L'AS TEJY et L'APPASSIONATO",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_000188.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_000188.png"
+            },
+            {
+              "runner": 3726553,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_000186.png"
+            },
+            {
+              "runner": 3726553,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_15_000189.png"
+            },
+            {
+              "runner": 3726548,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_13_000194.png"
+            },
+            {
+              "runner": 3726543,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_11_000197.png"
+            },
+            {
+              "runner": 3726538,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_8_000201.png"
+            },
+            {
+              "runner": 3726555,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_VIN/20251201_VIN_2/20251201_VIN_2_16_000206.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-05-22",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-05-22T20:01:26+02:00",
+            "slug": "20250522_man-r4c7_20250522-200110-jpg"
+          },
+          "libcourt_prix_course": "GUYON METAL ALU",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "19:50",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250522_40029930_00000HR-1.jpg",
+          "reference_message": "3 partants en commun, dont LUTHER et LOOPING DU PERRE",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000245.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_14_000251.png"
+            },
+            {
+              "runner": 3550112,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_1_000253.png"
+            },
+            {
+              "runner": 3550120,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_9_000257.png"
+            },
+            {
+              "runner": 3550122,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_11_000259.png"
+            },
+            {
+              "runner": 3550118,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_7_000263.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LAVAL",
+            "hippodrome": {
+              "name": "LAVAL"
+            },
+            "date_reunion": "2024-12-08",
+            "num_reunion": 12
+          },
+          "libcourt_prix_course": "DOCTEUR H GOUDE",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "13:40",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241208_39434299_00000HR-1.jpg",
+          "reference_message": "3 partants en commun, dont LIESSE DU CHENE et L'AS TEJY",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241208_39434299_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "MAUQUENCHY",
+            "hippodrome": {
+              "name": "MAUQUENCHY"
+            },
+            "date_reunion": "2025-11-30",
+            "num_reunion": 15
+          },
+          "libcourt_prix_course": "ETABL. FREULET",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LAVE DE COSSE et LISON DES GLENAN",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "MESLAY-DU-M.",
+            "hippodrome": {
+              "name": "MESLAY-DU-M."
+            },
+            "date_reunion": "2025-11-23",
+            "num_reunion": 12
+          },
+          "libcourt_prix_course": "BELINOIS GR.A",
+          "discipline": "Monté",
+          "distance": 2875,
+          "heure_depart_course": "16:00",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251123_41414959_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LA VIE EN ROSE et LUNICK DE FORGAN",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251123_41414959_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "PARIS-VINCENNES",
+            "hippodrome": {
+              "name": "PARIS-VINCENNES"
+            },
+            "date_reunion": "2025-11-14",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2025-11-14T22:27:39+01:00",
+            "slug": "20251114_vin-r1c6_20251114-222721-jpg"
+          },
+          "libcourt_prix_course": "REST. DU COEUR",
+          "discipline": "Monté",
+          "distance": 2700,
+          "heure_depart_course": "21:18",
+          "num_course_pmu": 6,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251114_41109320_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont L'AS TEJY et LUTHER",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_000231.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_000231.png"
+            },
+            {
+              "runner": 3713487,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_7_000232.png"
+            },
+            {
+              "runner": 3713484,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_4_000238.png"
+            },
+            {
+              "runner": 3713490,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_10_000241.png"
+            },
+            {
+              "runner": 3713493,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_13_000243.png"
+            },
+            {
+              "runner": 3713492,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251114_VIN/20251114_VIN_6/20251114_VIN_6_12_000249.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "PARIS-VINCENNES",
+            "hippodrome": {
+              "name": "PARIS-VINCENNES"
+            },
+            "date_reunion": "2025-10-28",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-10-28T18:59:26+01:00",
+            "slug": "20251028_vin-r3c5_20251028-185914-jpg"
+          },
+          "libcourt_prix_course": "GARDANNE",
+          "discipline": "Monté",
+          "distance": 2700,
+          "heure_depart_course": "18:47",
+          "num_course_pmu": 5,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251028_41036387_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont L'APPASSIONATO et L'IDEALISTE",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_000231.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_000231.png"
+            },
+            {
+              "runner": 3699635,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_000224.png"
+            },
+            {
+              "runner": 3699635,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_10_000232.png"
+            },
+            {
+              "runner": 3699634,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_9_000236.png"
+            },
+            {
+              "runner": 3699632,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_7_000240.png"
+            },
+            {
+              "runner": 3699630,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251028_VIN/20251028_VIN_5/20251028_VIN_5_5_000243.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-10-11",
+            "num_reunion": 13
+          },
+          "libcourt_prix_course": "FATINES-GR.B",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "17:40",
+          "num_course_pmu": 8,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223791_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LA VIE EN ROSE et LORENZO DAIRPET",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223791_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-10-11",
+            "num_reunion": 13
+          },
+          "libcourt_prix_course": "FATINES-GR.A",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "17:10",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223774_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LUNICK DE FORGAN et LOKO",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223774_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAEN",
+            "hippodrome": {
+              "name": "CAEN"
+            },
+            "date_reunion": "2025-10-11",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2025-10-11T14:22:04+02:00",
+            "slug": "20251011_cae-r1c1_20251011-133213-jpg"
+          },
+          "libcourt_prix_course": "BLAINVILLE/ORNE",
+          "discipline": "Attelé",
+          "distance": 2200,
+          "heure_depart_course": "13:23",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_40936946_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont L'AS TEJY et L'APPASSIONATO",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_000183.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_000183.png"
+            },
+            {
+              "runner": 3684843,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_000175.png"
+            },
+            {
+              "runner": 3684843,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_3_000184.png"
+            },
+            {
+              "runner": 3684847,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_7_000185.png"
+            },
+            {
+              "runner": 3684842,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_2_000188.png"
+            },
+            {
+              "runner": 3684844,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251011_CAE/20251011_CAE_1/20251011_CAE_1_4_000191.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LAVAL",
+            "hippodrome": {
+              "name": "LAVAL"
+            },
+            "date_reunion": "2025-10-04",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-10-04T21:16:54+02:00",
+            "slug": "20251004_lav-r5c7_20251004-201829-jpg"
+          },
+          "libcourt_prix_course": "GABRIEL SANDRIN",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "20:07",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251004_40888119_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LUGOS DE MONTAURAN et LUCIOLA DE LOU",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000226.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_11_000237.png"
+            },
+            {
+              "runner": 3678150,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_15_000242.png"
+            },
+            {
+              "runner": 3678145,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_10_000244.png"
+            },
+            {
+              "runner": 3678144,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_9_000246.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "ENGHIEN",
+            "hippodrome": {
+              "name": "ENGHIEN"
+            },
+            "date_reunion": "2025-09-27",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-09-27T22:54:52+02:00",
+            "slug": "20250927_eng-r4c8_20250927-202318-jpg"
+          },
+          "libcourt_prix_course": "MAUPERTHUIS",
+          "discipline": "Monté",
+          "distance": 2875,
+          "heure_depart_course": "20:09",
+          "num_course_pmu": 8,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250927_40845611_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont LORENCE CLOSJASMIN et LUCIOLA DE LOU",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000240.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000240.png"
+            },
+            {
+              "runner": 3670656,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000232.png"
+            },
+            {
+              "runner": 3670656,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_12_000241.png"
+            },
+            {
+              "runner": 3670646,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_2_000246.png"
+            },
+            {
+              "runner": 3670648,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_4_000249.png"
+            },
+            {
+              "runner": 3670647,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_3_000252.png"
+            }
+          ]
+        }
+      ],
+      "same_prix": [
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-05-22",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-05-22T20:01:26+02:00",
+            "slug": "20250522_man-r4c7_20250522-200110-jpg"
+          },
+          "libcourt_prix_course": "GUYON METAL ALU",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "19:50",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250522_40029930_00000HR-1.jpg",
+          "reference_message": "Edition 2025 du prix PRIX SAS GUYON METAL ALU",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000245.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_14_000251.png"
+            },
+            {
+              "runner": 3550112,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_1_000253.png"
+            },
+            {
+              "runner": 3550120,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_9_000257.png"
+            },
+            {
+              "runner": 3550122,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_11_000259.png"
+            },
+            {
+              "runner": 3550118,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_7_000263.png"
+            }
+          ]
+        }
+      ],
+      "same_conditions": [
+        {
+          "reunion": {
+            "lib_reunion": "MAUQUENCHY",
+            "hippodrome": {
+              "name": "MAUQUENCHY"
+            },
+            "date_reunion": "2025-11-30",
+            "num_reunion": 15
+          },
+          "libcourt_prix_course": "ETABL. FREULET",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "MESLAY-DU-M.",
+            "hippodrome": {
+              "name": "MESLAY-DU-M."
+            },
+            "date_reunion": "2025-11-23",
+            "num_reunion": 12
+          },
+          "libcourt_prix_course": "BELINOIS GR.A",
+          "discipline": "Monté",
+          "distance": 2875,
+          "heure_depart_course": "16:00",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251123_41414959_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251123_41414959_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-10-11",
+            "num_reunion": 13
+          },
+          "libcourt_prix_course": "FATINES-GR.B",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "17:40",
+          "num_course_pmu": 8,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223791_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223791_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-10-11",
+            "num_reunion": 13
+          },
+          "libcourt_prix_course": "FATINES-GR.A",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "17:10",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223774_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251011_41223774_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LAVAL",
+            "hippodrome": {
+              "name": "LAVAL"
+            },
+            "date_reunion": "2025-10-04",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-10-04T21:16:54+02:00",
+            "slug": "20251004_lav-r5c7_20251004-201829-jpg"
+          },
+          "libcourt_prix_course": "GABRIEL SANDRIN",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "20:07",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251004_40888119_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000226.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_11_000237.png"
+            },
+            {
+              "runner": 3678150,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_15_000242.png"
+            },
+            {
+              "runner": 3678145,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_10_000244.png"
+            },
+            {
+              "runner": 3678144,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_9_000246.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "ENGHIEN",
+            "hippodrome": {
+              "name": "ENGHIEN"
+            },
+            "date_reunion": "2025-09-27",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-09-27T22:54:52+02:00",
+            "slug": "20250927_eng-r4c8_20250927-202318-jpg"
+          },
+          "libcourt_prix_course": "MAUPERTHUIS",
+          "discipline": "Monté",
+          "distance": 2875,
+          "heure_depart_course": "20:09",
+          "num_course_pmu": 8,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250927_40845611_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000240.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000240.png"
+            },
+            {
+              "runner": 3670656,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_000232.png"
+            },
+            {
+              "runner": 3670656,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_12_000241.png"
+            },
+            {
+              "runner": 3670646,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_2_000246.png"
+            },
+            {
+              "runner": 3670648,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_4_000249.png"
+            },
+            {
+              "runner": 3670647,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250927_ENG/20250927_ENG_8/20250927_ENG_8_3_000252.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LES SABLES D'OLONNE",
+            "hippodrome": {
+              "name": "LES SABLES D'OLONNE"
+            },
+            "date_reunion": "2025-08-27",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-08-27T23:10:42+02:00",
+            "slug": "20250827_lso-r5c7_20250827-223042-jpg"
+          },
+          "libcourt_prix_course": "BENEV. LITTORAL",
+          "discipline": "Monté",
+          "distance": 2775,
+          "heure_depart_course": "22:22",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250827_40635037_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_000236.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_000236.png"
+            },
+            {
+              "runner": 3644336,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_2_000237.png"
+            },
+            {
+              "runner": 3644338,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_4_000246.png"
+            },
+            {
+              "runner": 3644337,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_3_000246.png"
+            },
+            {
+              "runner": 3644346,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_12_000246.png"
+            },
+            {
+              "runner": 3644341,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250827_LSO/20250827_LSO_7/20250827_LSO_7_000227.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "MAUQUENCHY",
+            "hippodrome": {
+              "name": "MAUQUENCHY"
+            },
+            "date_reunion": "2025-08-06",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-08-06T13:10:49+02:00",
+            "slug": "20250806_rou-r3c3_20250806-131036-jpg"
+          },
+          "libcourt_prix_course": "YVETTE THEVENET",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "12:37",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250806_40506058_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_000246.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_000246.png"
+            },
+            {
+              "runner": 3625744,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_000244.png"
+            },
+            {
+              "runner": 3625737,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_5_000254.png"
+            },
+            {
+              "runner": 3625738,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_6_000254.png"
+            },
+            {
+              "runner": 3625741,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250806_ROU/20250806_ROU_3/20250806_ROU_3_9_000249.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LES SABLES D'OLONNE",
+            "hippodrome": {
+              "name": "LES SABLES D'OLONNE"
+            },
+            "date_reunion": "2025-07-12",
+            "num_reunion": 5
+          },
+          "libcourt_prix_course": "LEON HERBERT",
+          "discipline": "Monté",
+          "distance": 2775,
+          "heure_depart_course": "21:26",
+          "num_course_pmu": 6,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250712_40335720_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 2 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250712_LSO/20250712_LSO_6/20250712_LSO_6_000257.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250712_LSO/20250712_LSO_6/20250712_LSO_6_000257.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-05-22",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-05-22T20:01:26+02:00",
+            "slug": "20250522_man-r4c7_20250522-200110-jpg"
+          },
+          "libcourt_prix_course": "GUYON METAL ALU",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "19:50",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250522_40029930_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 3 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000250.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_000245.png"
+            },
+            {
+              "runner": 3550125,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_14_000251.png"
+            },
+            {
+              "runner": 3550112,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_1_000253.png"
+            },
+            {
+              "runner": 3550120,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_9_000257.png"
+            },
+            {
+              "runner": 3550122,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_11_000259.png"
+            },
+            {
+              "runner": 3550118,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250522_MAN/20250522_MAN_7/20250522_MAN_7_7_000263.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LAVAL",
+            "hippodrome": {
+              "name": "LAVAL"
+            },
+            "date_reunion": "2024-12-08",
+            "num_reunion": 12
+          },
+          "libcourt_prix_course": "DOCTEUR H GOUDE",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "13:40",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241208_39434299_00000HR-1.jpg",
+          "reference_message": "Distance comparable, même corde, même mode de départ.et 3 partants en commun",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241208_39434299_00000HR-1.jpg"
+            }
+          ]
+        }
+      ],
+      "best_associations": [
+        {
+          "reunion": {
+            "lib_reunion": "MAUQUENCHY",
+            "hippodrome": {
+              "name": "MAUQUENCHY"
+            },
+            "date_reunion": "2025-11-30",
+            "num_reunion": 15
+          },
+          "libcourt_prix_course": "ETABL. FREULET",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo AURELIEN DESMARRES / LAVE DE COSSE associé 2 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251130_41197314_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-07-26",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-07-26T18:54:10+02:00",
+            "slug": "20250726_man-r4c5_20250726-185359-jpg"
+          },
+          "libcourt_prix_course": "INDIANAPOLIS",
+          "discipline": "Monté",
+          "distance": 2950,
+          "heure_depart_course": "18:44",
+          "num_course_pmu": 5,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250726_40423891_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo D. BONNE / L'IDEALISTE associé 3 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_000256.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_000256.png"
+            },
+            {
+              "runner": 3614586,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_000243.png"
+            },
+            {
+              "runner": 3614586,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_9_000257.png"
+            },
+            {
+              "runner": 3614580,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_3_000259.png"
+            },
+            {
+              "runner": 3614584,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_7_000262.png"
+            },
+            {
+              "runner": 3614585,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250726_MAN/20250726_MAN_5/20250726_MAN_5_8_000266.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "PORNICHET",
+            "hippodrome": {
+              "name": "PORNICHET"
+            },
+            "date_reunion": "2025-10-31",
+            "num_reunion": 8
+          },
+          "libcourt_prix_course": "HALLOWEEN-GR.A",
+          "discipline": "Monté",
+          "distance": 2725,
+          "heure_depart_course": "17:32",
+          "num_course_pmu": 4,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251031_41322071_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo MARTIAL VIEL / LOKO associé 5 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251031_41322071_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "PARIS-VINCENNES",
+            "hippodrome": {
+              "name": "PARIS-VINCENNES"
+            },
+            "date_reunion": "2025-11-10",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-11-10T13:30:49+01:00",
+            "slug": "20251110_vin-r3c3_20251110-131029-jpg"
+          },
+          "libcourt_prix_course": "PONTORSON",
+          "discipline": "Monté",
+          "distance": 2700,
+          "heure_depart_course": "12:55",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251110_41089983_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo J.Y. RICART / LUCIOLA DE LOU associé 8 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_000234.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_000234.png"
+            },
+            {
+              "runner": 3710244,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_000232.png"
+            },
+            {
+              "runner": 3710244,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_10_000231.png"
+            },
+            {
+              "runner": 3710245,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_11_000236.png"
+            },
+            {
+              "runner": 3710248,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_14_000238.png"
+            },
+            {
+              "runner": 3710248,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_14_000238.png"
+            },
+            {
+              "runner": 3710243,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_9_000241.png"
+            },
+            {
+              "runner": 3710243,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251110_VIN/20251110_VIN_3/20251110_VIN_3_9_000241.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LAVAL",
+            "hippodrome": {
+              "name": "LAVAL"
+            },
+            "date_reunion": "2025-10-04",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-10-04T21:16:54+02:00",
+            "slug": "20251004_lav-r5c7_20251004-201829-jpg"
+          },
+          "libcourt_prix_course": "GABRIEL SANDRIN",
+          "discipline": "Monté",
+          "distance": 2850,
+          "heure_depart_course": "20:07",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251004_40888119_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo G. LENAIN / LUGOS DE MONTAURAN associé 6 fois depuis 3 ans, pour 0% de réussites ( dont 0% de victoires)",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000236.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_000226.png"
+            },
+            {
+              "runner": 3678146,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_11_000237.png"
+            },
+            {
+              "runner": 3678150,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_15_000242.png"
+            },
+            {
+              "runner": 3678145,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_10_000244.png"
+            },
+            {
+              "runner": 3678144,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251004_LAV/20251004_LAV_7/20251004_LAV_7_9_000246.png"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "horseHistory": {
+    "code": 405,
+    "message": "Method Not Allowed"
+  },
+  "horseStats": {
+    "code": 405,
+    "message": "Method Not Allowed"
+  }
+}

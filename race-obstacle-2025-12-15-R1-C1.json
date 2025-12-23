@@ -1,0 +1,2187 @@
+{
+  "type": "Obstacle",
+  "date": "2025-12-15",
+  "reunion": "R1",
+  "course": "C1",
+  "courseDetails": {
+    "etat_terrain": "Très souple",
+    "reunion": {
+      "lib_reunion": "CAGNES-SUR-MER",
+      "meteo_vent_direction": {
+        "label": "Est"
+      },
+      "meteo_nebulosite_code": "P5",
+      "meteo_nebulosite_libelle_court": "Très Nuageux",
+      "audience": {
+        "label": "Nationale + Evenement + Regionale",
+        "code": "N, Q+, R",
+        "uuid": "0619cf21-577f-41b9-9b0f-b2ded985e072"
+      },
+      "hippodrome": {
+        "name": "HIPPODROME DE CAGNES-SUR-MER",
+        "country_code": "FRA"
+      },
+      "date_reunion": "2025-12-15",
+      "num_reunion": 1,
+      "specialite_reunion": "Obstacle",
+      "ind_reu_csi": false,
+      "meteo_temperature": "14",
+      "meteo_vent_force": "18",
+      "is_pmh": false,
+      "is_premium": true,
+      "flux_url": "racing1",
+      "flux_type": "RACING",
+      "flux_active": true
+    },
+    "pari_courses": [
+      {
+        "pari_type": {
+          "code_pari": "1",
+          "titre": "Simple gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "2",
+          "titre": "Simple placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "3",
+          "titre": "Couplé gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "4",
+          "titre": "Couplé placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "40",
+          "titre": "Mini Multi"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "43",
+          "titre": "e-Simple Gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "44",
+          "titre": "e-Simple Placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "45",
+          "titre": "e-Couplé Gagnant"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "46",
+          "titre": "e-Couplé Placé"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "48",
+          "titre": "e-2sur4"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "49",
+          "titre": "e-Trio"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "59",
+          "titre": "e-Mini Multi"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "8",
+          "titre": "2 sur 4"
+        },
+        "audience": "Nationale"
+      },
+      {
+        "pari_type": {
+          "code_pari": "9",
+          "titre": "Trio"
+        },
+        "audience": "Nationale"
+      }
+    ],
+    "pays": {
+      "code": "FRA",
+      "label": "France"
+    },
+    "libcourt_prix_course": "VESUBIE",
+    "liblong_prix_course": "PRIX DE LA VESUBIE",
+    "discipline": "Haies",
+    "conditions_txt_course": "Pour poulains entiers et hongres de 3ans, n'ayant pas reçu 15.000 en coursede haies (victoires et places) (A Réclamer excepté). Poids : 66 kg. Surcharges accumulées pour les sommes reçues encourse de haies (victoires et places) :1 kg par 4.000.",
+    "distance": 3300,
+    "parcours": {
+      "updated_at": "2025-12-13T11:39:48+01:00",
+      "slug": "20251215_cag-r1c1-png"
+    },
+    "val_penetr": 3.9,
+    "heure_releve_penetr": "2025-12-15T08:50:00+01:00",
+    "is_quinte_plus": false,
+    "is_quinte_new": false,
+    "heure_depart_course": "11:30",
+    "num_course_pmu": 1,
+    "nbdeclare_course": 10,
+    "statut_course_id": 16,
+    "ind_cei": false,
+    "is_pmh": false,
+    "categ_course": "COURSE A CONDITIONS",
+    "video_course_id": "1049306",
+    "video_course_url_video": "20251215/41501393_00000HR.mp4",
+    "video_course_duree_video": "04:37",
+    "montant_total_allocation": "34.000 euros",
+    "lib_piste_course": "Herbe",
+    "tracked": true,
+    "world_pool": false,
+    "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251215_41501393_00000HR-1.jpg",
+    "uuid": "3780bfdc-e8b9-40ab-9231-7d0783adae80",
+    "ind_crs_csi": false,
+    "video_course_nom": "20251215_41501393_00000HR",
+    "partants": [
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p1-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "D.COTTIN (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "L.L.BAUDRON (S)"
+          },
+          "nom_cheval": "MAJOR STAR",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "3h4p",
+          "gains_carriere": 4420,
+          "slug": "major-star",
+          "uuid": "d2cf628e-9fd4-4498-8892-852430282c33",
+          "nom_entraineur": "D.COTTIN (S)",
+          "nom_proprietaire": "L.L.BAUDRON (S)"
+        },
+        "monte": {
+          "nom_monte": "B.CLAUDIC"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "07",
+        "temps_part": "3 L 1/2",
+        "entraineur": {
+          "nom_entraineur": "D.COTTIN (S)"
+        },
+        "num_partant": 1,
+        "texte_place_arrivee": "07",
+        "pds_calc_hand_partant": 67,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 4420,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "9f497c8e-3fbc-4005-b6b7-84f79c2b158c"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p2-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "D.COTTIN (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "ECURIE PIERRE MBAPPE"
+          },
+          "nom_cheval": "ADES",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "3h8h",
+          "gains_carriere": 4160,
+          "slug": "ades",
+          "uuid": "3f78ef06-5191-4819-a1fe-8bb6f069a1a2",
+          "nom_entraineur": "D.COTTIN (S)",
+          "nom_proprietaire": "ECURIE PIERRE MBAPPE"
+        },
+        "monte": {
+          "nom_monte": "J.CHARRON"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "03",
+        "temps_part": "1 L 3/4",
+        "entraineur": {
+          "nom_entraineur": "D.COTTIN (S)"
+        },
+        "num_partant": 2,
+        "texte_place_arrivee": "03",
+        "pds_calc_hand_partant": 67,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 4160,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "b076de69-83f0-4a16-8f67-2b6f3f8adc3f"
+      },
+      {
+        "last_itw_ap": {
+          "title": "251215 ITW T-BEAURAIN AP R1C1P3",
+          "category": "ITW AP",
+          "num_reunion": "1",
+          "num_course": "1",
+          "num_partant": "3",
+          "event_date": "2025-12-15",
+          "video_id": "251215-ITWAPR1C1P3",
+          "created_at": "2025-12-15T12:02:09+01:00"
+        },
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p3-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "J.MERIENNE"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "P.LAMY"
+          },
+          "nom_cheval": "CHATEAU LA BARRE",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "2h6p",
+          "gains_carriere": 7820,
+          "slug": "chateau-la-barre",
+          "uuid": "314ffa04-7854-49c6-b19f-2e638031618b",
+          "nom_entraineur": "J.MERIENNE",
+          "nom_proprietaire": "P.LAMY"
+        },
+        "monte": {
+          "nom_monte": "T.BEAURAIN"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "01",
+        "entraineur": {
+          "nom_entraineur": "J.MERIENNE"
+        },
+        "num_partant": 3,
+        "texte_place_arrivee": "01",
+        "pds_calc_hand_partant": 67,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 7820,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "839c543a-ca29-4933-a7a5-48fb3e3d1418"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p4-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "M.PITART"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "B.LION"
+          },
+          "nom_cheval": "ALASTOR MAUGREY",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "3h2p2p6p3p7p3p7p2p7p",
+          "gains_carriere": 4420,
+          "valeur": 31,
+          "slug": "alastor-maugrey",
+          "uuid": "fc117a6c-8d51-4072-8213-3330d9a134cc",
+          "nom_entraineur": "M.PITART",
+          "nom_proprietaire": "B.LION"
+        },
+        "monte": {
+          "nom_monte": "T.CHEVILLARD"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "04",
+        "temps_part": "2 L",
+        "entraineur": {
+          "nom_entraineur": "M.PITART"
+        },
+        "num_partant": 4,
+        "texte_place_arrivee": "04",
+        "pds_calc_hand_partant": 67,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 4420,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "6fca3cbc-3757-4354-ba31-6424892252a7"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p5-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "S.FOUCHER"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "H.RUBIN"
+          },
+          "nom_cheval": "VICTORY WIND",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "2h1p0p0p2p7p(24)1p4p0p",
+          "gains_carriere": 7820,
+          "valeur": 35,
+          "slug": "victory-wind",
+          "uuid": "b377f369-4572-4ab4-8eed-c4f5528adada",
+          "nom_entraineur": "S.FOUCHER",
+          "nom_proprietaire": "H.RUBIN"
+        },
+        "monte": {
+          "nom_monte": "G.FAIVRE-PICON"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "02",
+        "temps_part": "3 L",
+        "entraineur": {
+          "nom_entraineur": "S.FOUCHER"
+        },
+        "num_partant": 5,
+        "texte_place_arrivee": "02",
+        "pds_calc_hand_partant": 67,
+        "pds_cond_monte_partant": 66,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 7820,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "5c8067f4-cbf2-40fd-bd60-588925e46eed"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p6-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "M.SEROR (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "D.DAHAN"
+          },
+          "nom_cheval": "MADISON RANSOM",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "0h",
+          "slug": "madison-ransom",
+          "uuid": "2b9fdff7-7920-48fc-aa51-83d647192aa3",
+          "nom_entraineur": "M.SEROR (S)",
+          "nom_proprietaire": "D.DAHAN"
+        },
+        "monte": {
+          "nom_monte": "L.PHILIPPERON"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "06",
+        "temps_part": "5 L 1/2",
+        "entraineur": {
+          "nom_entraineur": "M.SEROR (S)"
+        },
+        "num_partant": 6,
+        "texte_place_arrivee": "06",
+        "pds_calc_hand_partant": 66,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "13f9c73e-4093-4a75-a08a-a4a1934da0e2"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p7-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "Y.FOUIN (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "SCEA HARAS DES FORETS"
+          },
+          "nom_cheval": "MEURSAULT CHARME",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "4h5p2p",
+          "gains_carriere": 3060,
+          "slug": "meursault-charme",
+          "uuid": "46eda948-68c3-4e86-a222-ad1bbbbf2366",
+          "nom_entraineur": "Y.FOUIN (S)",
+          "nom_proprietaire": "SCEA HARAS DES FORETS"
+        },
+        "monte": {
+          "nom_monte": "K.NABET"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "09",
+        "temps_part": "9 L",
+        "entraineur": {
+          "nom_entraineur": "Y.FOUIN (S)"
+        },
+        "num_partant": 7,
+        "texte_place_arrivee": "09",
+        "pds_calc_hand_partant": 66,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 3060,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "9922e240-071b-43a8-aaa1-b31c9f3dce25"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p8-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "M.SEROR (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "MME C.PRECY-BARONI"
+          },
+          "nom_cheval": "LITTLE PERFECT",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "slug": "little-perfect",
+          "uuid": "e2496db2-0da7-4e24-8aaf-30011075bba1",
+          "nom_entraineur": "M.SEROR (S)",
+          "nom_proprietaire": "MME C.PRECY-BARONI"
+        },
+        "monte": {
+          "nom_monte": "J.PHELIPPE"
+        },
+        "oeil_partant": "A",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "08",
+        "temps_part": "1/2 L",
+        "entraineur": {
+          "nom_entraineur": "M.SEROR (S)"
+        },
+        "num_partant": 8,
+        "texte_place_arrivee": "08",
+        "pds_calc_hand_partant": 66,
+        "pds_cond_monte_partant": 62,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": false,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": true,
+        "uuid": "9268f424-0310-46a8-9fdf-f3bde9e35a8d"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p9-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "M.SEROR (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "JRB .WILLIAMS"
+          },
+          "nom_cheval": "WHISKY MAX",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "Ah",
+          "slug": "whisky-max",
+          "uuid": "5b053225-664b-4130-bd78-a1491cf9ff89",
+          "nom_entraineur": "M.SEROR (S)",
+          "nom_proprietaire": "JRB .WILLIAMS"
+        },
+        "monte": {
+          "nom_monte": "D.UBEDA"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "entraineur": {
+          "nom_entraineur": "M.SEROR (S)"
+        },
+        "num_partant": 9,
+        "texte_place_arrivee": "Arrêté",
+        "pds_calc_hand_partant": 66,
+        "pds_cond_monte_partant": 0,
+        "bonnet": false,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "c7d47e2d-7356-4b91-b57f-9cb82851e136"
+      },
+      {
+        "casaque": {
+          "updated_at": "2025-12-13T14:19:23+01:00",
+          "slug": "20251215-r1c1p10-png"
+        },
+        "cheval": {
+          "entraineur": {
+            "nom_entraineur": "GAB.LEENDERS (S)"
+          },
+          "proprietaire": {
+            "nom_proprietaire": "Y.BOTHAMY/JP.BOTHAMY"
+          },
+          "nom_cheval": "BRUN DE TZAR",
+          "sexe_cheval": "H",
+          "age_cheval": 3,
+          "musique": "6h",
+          "gains_carriere": 1020,
+          "slug": "brun-de-tzar",
+          "uuid": "aaa22ed9-7ba8-4179-978b-a1a656b9703c",
+          "nom_entraineur": "GAB.LEENDERS (S)",
+          "nom_proprietaire": "Y.BOTHAMY/JP.BOTHAMY"
+        },
+        "monte": {
+          "nom_monte": "B.GELHAY"
+        },
+        "oeil_partant": "N",
+        "deferrer_partant": "",
+        "statut_part": "DP",
+        "statut_part_pcc": "DP",
+        "num_place_arrivee": "05",
+        "temps_part": "7 L",
+        "entraineur": {
+          "nom_entraineur": "GAB.LEENDERS (S)"
+        },
+        "num_partant": 10,
+        "texte_place_arrivee": "05",
+        "pds_calc_hand_partant": 66,
+        "pds_cond_monte_partant": 0,
+        "bonnet": true,
+        "type_eng": "N",
+        "attache_langue": true,
+        "age_cheval": 3,
+        "sexe_cheval": "H",
+        "gains_carriere": 1020,
+        "deferrer_partant_first_time": false,
+        "oeil_partant_first_time": false,
+        "uuid": "1fb7c568-1142-43d3-8eff-d4342ad00455"
+      }
+    ],
+    "enjeu_s_g": {
+      "montant": 89482
+    },
+    "type_statut_course_id": "finished",
+    "last_minutes": [],
+    "editorial_contents": [
+      {
+        "title": "251215 ITW T-BEAURAIN AP R1C1P3",
+        "category": "ITW AP",
+        "num_reunion": "1",
+        "num_course": "1",
+        "num_partant": "3",
+        "event_date": "2025-12-15",
+        "video_id": "251215-ITWAPR1C1P3",
+        "created_at": "2025-12-15T12:02:09+01:00"
+      }
+    ],
+    "groupe": "",
+    "description": "COURSE A CONDITIONS - CLASSE 3",
+    "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251215_CAG/20251215_CAG_1/20251215_CAG_1_000263.png",
+    "photo_gallery": [
+      {
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_CAG/20251215_CAG_1/20251215_CAG_1_000263.png"
+      },
+      {
+        "runner": 3736784,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_CAG/20251215_CAG_1/20251215_CAG_1_000262.png"
+      },
+      {
+        "runner": 3736784,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_CAG/20251215_CAG_1/20251215_CAG_1_3_000264.png"
+      },
+      {
+        "runner": 3736786,
+        "url": "https://media.equidia.fr/unsafe/race_frames/20251215_CAG/20251215_CAG_1/20251215_CAG_1_5_000266.png"
+      }
+    ]
+  },
+  "pronostic": {
+    "pronostic_analyses": [
+      {
+        "cheval": {
+          "nom_cheval": "VICTORY WIND",
+          "slug": "victory-wind",
+          "uuid": "b377f369-4572-4ab4-8eed-c4f5528adada",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p5-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p5-png"
+          },
+          "num_partant": 5,
+          "uuid": "5c8067f4-cbf2-40fd-bd60-588925e46eed"
+        },
+        "position": 2,
+        "note_numerique": 2,
+        "cote_journaliste": 5,
+        "num_partant": 5,
+        "analysis_horse": "Réclamé suite à un succès à Durtal en plat, il a bien terminé pour ses débuts chez Serge Foucher. Gare à lui !"
+      },
+      {
+        "cheval": {
+          "nom_cheval": "ALASTOR MAUGREY",
+          "slug": "alastor-maugrey",
+          "uuid": "fc117a6c-8d51-4072-8213-3330d9a134cc",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p4-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p4-png"
+          },
+          "num_partant": 4,
+          "uuid": "6fca3cbc-3757-4354-ba31-6424892252a7"
+        },
+        "position": 4,
+        "note_numerique": 2,
+        "cote_journaliste": 7,
+        "num_partant": 4,
+        "analysis_horse": "Après avoir collectionné les accessits en plat, il a pleinement convaincu pour ses débuts sur les obstacles."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "MEURSAULT CHARME",
+          "slug": "meursault-charme",
+          "uuid": "46eda948-68c3-4e86-a222-ad1bbbbf2366",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p7-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p7-png"
+          },
+          "num_partant": 7,
+          "uuid": "9922e240-071b-43a8-aaa1-b31c9f3dce25"
+        },
+        "position": 6,
+        "note_numerique": 2,
+        "cote_journaliste": 10,
+        "num_partant": 7,
+        "analysis_horse": "Il n'a pas démérité en retrait de CHATEAU LA BARRE (3) et de MAJOR STAR (1) dernièrement. Progrès escomptés."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "ADES",
+          "slug": "ades",
+          "uuid": "3f78ef06-5191-4819-a1fe-8bb6f069a1a2",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p2-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p2-png"
+          },
+          "num_partant": 2,
+          "uuid": "b076de69-83f0-4a16-8f67-2b6f3f8adc3f"
+        },
+        "position": 5,
+        "note_numerique": 2,
+        "cote_journaliste": 8,
+        "num_partant": 2,
+        "analysis_horse": "Discret à Auteuil pour ses débuts, il a couru en nets progrès lors de ses premiers pas à Cagnes et mérite considération."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "CHATEAU LA BARRE",
+          "slug": "chateau-la-barre",
+          "uuid": "314ffa04-7854-49c6-b19f-2e638031618b",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p3-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p3-png"
+          },
+          "num_partant": 3,
+          "uuid": "839c543a-ca29-4933-a7a5-48fb3e3d1418"
+        },
+        "position": 1,
+        "note_numerique": 3,
+        "cote_journaliste": 4,
+        "num_partant": 3,
+        "analysis_horse": "Dans une course décousue, il a refait énormément de terrain lors de ses débuts sur les haies. Confirmation attendue."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "MAJOR STAR",
+          "slug": "major-star",
+          "uuid": "d2cf628e-9fd4-4498-8892-852430282c33",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p1-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p1-png"
+          },
+          "num_partant": 1,
+          "uuid": "9f497c8e-3fbc-4005-b6b7-84f79c2b158c"
+        },
+        "position": 3,
+        "note_numerique": 2,
+        "cote_journaliste": 6,
+        "num_partant": 1,
+        "analysis_horse": "Seul à suivre le fuyard et futur vainqueur lors de ses débuts en haies, il s'est montré très courageux dans la ligne droite."
+      },
+      {
+        "cheval": {
+          "nom_cheval": "MADISON RANSOM",
+          "slug": "madison-ransom",
+          "uuid": "2b9fdff7-7920-48fc-aa51-83d647192aa3",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p6-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p6-png"
+          },
+          "num_partant": 6,
+          "uuid": "13f9c73e-4093-4a75-a08a-a4a1934da0e2"
+        },
+        "position": 7,
+        "note_numerique": 1,
+        "cote_journaliste": 12,
+        "num_partant": 6
+      },
+      {
+        "cheval": {
+          "nom_cheval": "BRUN DE TZAR",
+          "slug": "brun-de-tzar",
+          "uuid": "aaa22ed9-7ba8-4179-978b-a1a656b9703c",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p10-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p10-png"
+          },
+          "num_partant": 10,
+          "uuid": "1fb7c568-1142-43d3-8eff-d4342ad00455"
+        },
+        "position": 10,
+        "note_numerique": 1,
+        "cote_journaliste": 42,
+        "num_partant": 10
+      },
+      {
+        "cheval": {
+          "nom_cheval": "WHISKY MAX",
+          "slug": "whisky-max",
+          "uuid": "5b053225-664b-4130-bd78-a1491cf9ff89",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p9-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p9-png"
+          },
+          "num_partant": 9,
+          "uuid": "c7d47e2d-7356-4b91-b57f-9cb82851e136"
+        },
+        "position": 8,
+        "note_numerique": 1,
+        "cote_journaliste": 16,
+        "num_partant": 9
+      },
+      {
+        "cheval": {
+          "nom_cheval": "LITTLE PERFECT",
+          "slug": "little-perfect",
+          "uuid": "e2496db2-0da7-4e24-8aaf-30011075bba1",
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p8-png"
+          }
+        },
+        "partant": {
+          "casaque": {
+            "updated_at": "2025-12-13T14:19:23+01:00",
+            "slug": "20251215-r1c1p8-png"
+          },
+          "num_partant": 8,
+          "uuid": "9268f424-0310-46a8-9fdf-f3bde9e35a8d"
+        },
+        "position": 9,
+        "note_numerique": 1,
+        "cote_journaliste": 25,
+        "num_partant": 8
+      }
+    ],
+    "creator": {
+      "firstname": "EMMANUEL",
+      "lastname": "RIVRON",
+      "photo_url": "emmanuel-rivron-2-jpg",
+      "is_journalist": true,
+      "class_key": 3,
+      "uuid": "987fb506-d149-4cd3-9e9f-cd08044e8258",
+      "slug": "emmanuel-rivron"
+    },
+    "type": "analysis_by_horse",
+    "status": "published",
+    "chapeau": "A l'occasion d'une épreuve très rythmée, CHATEAU LA BARRE (3) a refait le champ de course lors de ses débuts en haies. Acquis par Serge Foucher à l'issue d'une victoire en plat, VICTORY WIND (5) a vite trouvé ses marques sur les obstacles. Troisième derrière notre favori le 1er décembre, MAJOR STAR (1) a fait preuve de courage. Expérimenté en plat, ALASTOR MAUGREY (4) a convaincu pour son baptême du feu sur les balais.",
+    "published_at": "2025-12-13T07:52:50+01:00",
+    "validated": false,
+    "uuid": "3f7ed657-55aa-434f-b146-5aa23bcb8001",
+    "bases": [
+      3
+    ],
+    "belles_chances": [
+      5,
+      1,
+      4,
+      2,
+      7
+    ],
+    "outsiders": [
+      6,
+      9,
+      8,
+      10
+    ],
+    "delaisses": [],
+    "bet_links": {
+      "zeturf": "https://www.zeturf.fr/fr/course/2025-12-15/R1C1-equidia?prefill=12:3-5-1-4-2&pid=311&aff=202331101"
+    }
+  },
+  "notes": {
+    "code": 404,
+    "message": "No route found for \"GET /api/public/courses/2025-12-15/R1/C1/note\""
+  },
+  "pariSimple": {
+    "code": 404,
+    "message": "No route found for \"GET /api/public/courses/2025-12-15/R1/C1/pari-simple\""
+  },
+  "references": {
+    "results": {
+      "references": [],
+      "favoris": [
+        {
+          "reunion": {
+            "lib_reunion": "MACHECOUL(Chaumes)",
+            "hippodrome": {
+              "name": "MACHECOUL(Chaumes)"
+            },
+            "date_reunion": "2025-11-11",
+            "num_reunion": 14
+          },
+          "libcourt_prix_course": "SABLES D'OLONNE",
+          "discipline": "Plat",
+          "distance": 2950,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251111_41313859_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par CHATEAU LA BARRE donné favori à la cote de 2.50",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251111_41313859_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE LION D'ANGERS",
+            "hippodrome": {
+              "name": "DU LION D'ANGERS"
+            },
+            "date_reunion": "2024-07-11",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2024-07-11T16:27:22+02:00",
+            "slug": "20240711_lla-r5c1_20240711-162706-jpg"
+          },
+          "libcourt_prix_course": "PREMIERE CHANCE",
+          "discipline": "Plat",
+          "distance": 1400,
+          "heure_depart_course": "16:18",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240711_38537659_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par VICTORY WIND donné parmi les favoris à la cote de 5.10",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20240711_38537659_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "AUTEUIL",
+            "hippodrome": {
+              "name": "AUTEUIL"
+            },
+            "date_reunion": "2025-10-23",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2025-10-23T14:54:48+02:00",
+            "slug": "20251023_aut-r1c2_20251023-145433-jpg"
+          },
+          "libcourt_prix_course": "EMILIUS",
+          "discipline": "Haies",
+          "distance": 3600,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251023_40999662_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par ADES donné parmi les favoris à la cote de 6.10",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000305.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000305.png"
+            },
+            {
+              "runner": 3695110,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000300.png"
+            },
+            {
+              "runner": 3695110,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_5_000306.png"
+            },
+            {
+              "runner": 3695112,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_7_000308.png"
+            },
+            {
+              "runner": 3695113,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_8_000311.png"
+            },
+            {
+              "runner": 3695107,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_2_000317.png"
+            },
+            {
+              "runner": 3695108,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_3_000321.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LES SABLES D'OLONNE",
+            "hippodrome": {
+              "name": "LES SABLES D'OLONNE"
+            },
+            "date_reunion": "2025-07-22",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-07-22T19:46:12+02:00",
+            "slug": "20250722_lso-r4c6_20250722-194558-jpg"
+          },
+          "libcourt_prix_course": "ALTESSE V",
+          "discipline": "Plat",
+          "distance": 2700,
+          "heure_depart_course": "19:25",
+          "num_course_pmu": 6,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250722_40372184_00000HR-1.jpg",
+          "reference_message": " Dernière course courue par MEURSAULT CHARME donné parmi les favoris à la cote de 8.40",
+          "photo_gallery": [
+            {
+              "runner": 3612117,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250722_LSO/20250722_LSO_6/20250722_LSO_6_000194.png"
+            },
+            {
+              "runner": 3612117,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250722_LSO/20250722_LSO_6/20250722_LSO_6_4_000195.png"
+            },
+            {
+              "runner": 3612118,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250722_LSO/20250722_LSO_6/20250722_LSO_6_5_000199.png"
+            },
+            {
+              "runner": 3612121,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250722_LSO/20250722_LSO_6/20250722_LSO_6_8_000201.png"
+            },
+            {
+              "runner": 3612115,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250722_LSO/20250722_LSO_6/20250722_LSO_6_2_000207.png"
+            }
+          ]
+        }
+      ],
+      "most_common": [
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:01:24+01:00",
+            "slug": "20251201_cag-r3c1_20251201-130110-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.A",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "11:51",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41314555_00000HR-1.jpg",
+          "reference_message": "4 partants en commun, dont MADISON RANSOM et BRUN DE TZAR",
+          "photo_gallery": [
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_000252.png"
+            },
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_8_000253.png"
+            },
+            {
+              "runner": 3725892,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_12_000256.png"
+            },
+            {
+              "runner": 3725888,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_10_000256.png"
+            },
+            {
+              "runner": 3725885,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_7_000259.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:09:07+01:00",
+            "slug": "20251201_cag-r3c2_20251201-130857-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.B",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "12:23",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41445284_00000HR-1.jpg",
+          "reference_message": "4 partants en commun, dont CHATEAU LA BARRE et MEURSAULT CHARME",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000252.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_12_000254.png"
+            },
+            {
+              "runner": 3725901,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_9_000257.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725900,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_8_000265.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "ANGERS",
+            "hippodrome": {
+              "name": "ANGERS EVENTARD"
+            },
+            "date_reunion": "2024-11-18",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2024-11-18T13:07:37+01:00",
+            "slug": "20241118_ang-r3c3_20241118-123905-jpg"
+          },
+          "libcourt_prix_course": "G. DE LA CELLE",
+          "discipline": "Plat",
+          "distance": 2000,
+          "heure_depart_course": "12:23",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241118_39353496_00000HR-1.jpg",
+          "reference_message": "2 partants en commun, dont VICTORY WIND et ALASTOR MAUGREY",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241118_39353496_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-03",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-03T13:54:08+01:00",
+            "slug": "20251203_cag-r3c3_20251203-131551-jpg"
+          },
+          "libcourt_prix_course": "SAINT-LOUP",
+          "discipline": "Haies",
+          "distance": 3400,
+          "heure_depart_course": "12:55",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251203_41314586_00000HR-1.jpg",
+          "reference_message": "ADES était déjà au départ. C'est le dernier cheval à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000253.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_5_000251.png"
+            },
+            {
+              "runner": 3727830,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_7_000252.png"
+            },
+            {
+              "runner": 3727831,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_8_000254.png"
+            },
+            {
+              "runner": 3727825,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_3_000256.png"
+            },
+            {
+              "runner": 3727842,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_14_000258.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-11-17",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-11-17T12:15:59+01:00",
+            "slug": "20251117_man-r3c1_20251117-121539-jpg"
+          },
+          "libcourt_prix_course": "ARNAGE",
+          "discipline": "Plat",
+          "distance": 2300,
+          "heure_depart_course": "11:51",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251117_41314103_00000HR-1.jpg",
+          "reference_message": "MAJOR STAR était déjà au départ. C'est l'avant-dernier cheval à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_000169.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_000169.png"
+            },
+            {
+              "runner": 3715809,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_000164.png"
+            },
+            {
+              "runner": 3715805,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_2_000174.png"
+            },
+            {
+              "runner": 3715807,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_4_000175.png"
+            },
+            {
+              "runner": 3715804,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_1_000181.png"
+            },
+            {
+              "runner": 3715810,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251117_MAN/20251117_MAN_1/20251117_MAN_1_6_000184.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "MACHECOUL(Chaumes)",
+            "hippodrome": {
+              "name": "MACHECOUL(Chaumes)"
+            },
+            "date_reunion": "2025-11-11",
+            "num_reunion": 14
+          },
+          "libcourt_prix_course": "SABLES D'OLONNE",
+          "discipline": "Plat",
+          "distance": 2950,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251111_41313859_00000HR-1.jpg",
+          "reference_message": "CHATEAU LA BARRE était déjà au départ. C'est l'antépénultième cheval à avoir couru.",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251111_41313859_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "DURTAL(La Carrière)",
+            "hippodrome": {
+              "name": "DURTAL(La Carrière)"
+            },
+            "date_reunion": "2025-11-01",
+            "num_reunion": 15
+          },
+          "libcourt_prix_course": "TUILERIES",
+          "discipline": "Plat",
+          "distance": 2000,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251101_41036502_00000HR-1.jpg",
+          "reference_message": "VICTORY WIND était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251101_41036502_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LYON LA SOIE",
+            "hippodrome": {
+              "name": "LYON LA SOIE"
+            },
+            "date_reunion": "2025-10-24",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-10-24T19:49:08+02:00",
+            "slug": "20251024_vil-r5c5_20251024-194848-jpg"
+          },
+          "libcourt_prix_course": "ROUVIGNAC",
+          "discipline": "Plat",
+          "distance": 2400,
+          "heure_depart_course": "18:07",
+          "num_course_pmu": 5,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251024_40999688_00000HR-1.jpg",
+          "reference_message": "ALASTOR MAUGREY était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_000175.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_000175.png"
+            },
+            {
+              "runner": 3695622,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_000178.png"
+            },
+            {
+              "runner": 3695622,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_10_000176.png"
+            },
+            {
+              "runner": 3695614,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_2_000177.png"
+            },
+            {
+              "runner": 3695619,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251024_VIL/20251024_VIL_5/20251024_VIL_5_7_000179.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "AUTEUIL",
+            "hippodrome": {
+              "name": "AUTEUIL"
+            },
+            "date_reunion": "2025-10-23",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2025-10-23T14:54:48+02:00",
+            "slug": "20251023_aut-r1c2_20251023-145433-jpg"
+          },
+          "libcourt_prix_course": "EMILIUS",
+          "discipline": "Haies",
+          "distance": 3600,
+          "heure_depart_course": "14:30",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251023_40999662_00000HR-1.jpg",
+          "reference_message": "ADES était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000305.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000305.png"
+            },
+            {
+              "runner": 3695110,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_000300.png"
+            },
+            {
+              "runner": 3695110,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_5_000306.png"
+            },
+            {
+              "runner": 3695112,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_7_000308.png"
+            },
+            {
+              "runner": 3695113,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_8_000311.png"
+            },
+            {
+              "runner": 3695107,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_2_000317.png"
+            },
+            {
+              "runner": 3695108,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251023_AUT/20251023_AUT_2/20251023_AUT_2_3_000321.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "NANCY",
+            "hippodrome": {
+              "name": "NANCY"
+            },
+            "date_reunion": "2025-10-12",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-10-12T11:43:42+02:00",
+            "slug": "20251012_bra-r3c1_20251012-114328-jpg"
+          },
+          "libcourt_prix_course": "TECHNOP.BRABOIS",
+          "discipline": "Plat",
+          "distance": 2500,
+          "heure_depart_course": "10:52",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251012_40937162_00000HR-1.jpg",
+          "reference_message": "ALASTOR MAUGREY était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_000184.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_000184.png"
+            },
+            {
+              "runner": 3686621,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_000179.png"
+            },
+            {
+              "runner": 3686621,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_2_000185.png"
+            },
+            {
+              "runner": 3686620,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_1_000188.png"
+            },
+            {
+              "runner": 3686625,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_6_000189.png"
+            },
+            {
+              "runner": 3686624,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251012_BRA/20251012_BRA_1/20251012_BRA_1_5_000191.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "SAINT-CLOUD",
+            "hippodrome": {
+              "name": "SAINT-CLOUD"
+            },
+            "date_reunion": "2025-09-26",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2025-09-26T16:48:22+02:00",
+            "slug": "20250926_sai-r4c6_20250926-164807-jpg"
+          },
+          "libcourt_prix_course": "HARAS LA HUME",
+          "discipline": "Plat",
+          "distance": 3000,
+          "heure_depart_course": "16:38",
+          "num_course_pmu": 6,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250926_40824683_00000HR-1.jpg",
+          "reference_message": "ALASTOR MAUGREY était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_000222.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_000222.png"
+            },
+            {
+              "runner": 3669585,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_000219.png"
+            },
+            {
+              "runner": 3669585,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_7_000223.png"
+            },
+            {
+              "runner": 3669582,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_4_000224.png"
+            },
+            {
+              "runner": 3669578,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_1_000227.png"
+            },
+            {
+              "runner": 3669581,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250926_SAI/20250926_SAI_6/20250926_SAI_6_3_000231.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "LE MANS",
+            "hippodrome": {
+              "name": "DU MANS"
+            },
+            "date_reunion": "2025-09-12",
+            "num_reunion": 5
+          },
+          "photo": {
+            "updated_at": "2025-09-12T19:35:09+02:00",
+            "slug": "20250912_man-r5c7_20250912-193454-jpg"
+          },
+          "libcourt_prix_course": "COULAINES",
+          "discipline": "Plat",
+          "distance": 2300,
+          "heure_depart_course": "19:25",
+          "num_course_pmu": 7,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20250912_40735588_00000HR-1.jpg",
+          "reference_message": "MEURSAULT CHARME était déjà au départ. C'est l'un des derniers chevaux à avoir couru.",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_000161.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_000161.png"
+            },
+            {
+              "runner": 3657401,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_000164.png"
+            },
+            {
+              "runner": 3657401,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_4_000162.png"
+            },
+            {
+              "runner": 3657406,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_9_000164.png"
+            },
+            {
+              "runner": 3657405,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20250912_MAN/20250912_MAN_7/20250912_MAN_7_8_000166.png"
+            }
+          ]
+        }
+      ],
+      "same_prix": [
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2024-12-12",
+            "num_reunion": 2
+          },
+          "photo": {
+            "updated_at": "2024-12-12T13:23:41+01:00",
+            "slug": "20241212_cag-r2c2_20241212-132323-jpg"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "12:52",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20241212_39453359_00000HR-1.jpg",
+          "reference_message": "Edition 2024 du prix PRIX DE LA VESUBIE",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_000254.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_000254.png"
+            },
+            {
+              "runner": 3426357,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_3_000255.png"
+            },
+            {
+              "runner": 3426359,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_5_000258.png"
+            },
+            {
+              "runner": 3426362,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_8_000259.png"
+            },
+            {
+              "runner": 3426358,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_4_000263.png"
+            },
+            {
+              "runner": 3426355,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20241212_CAG/20241212_CAG_2/20241212_CAG_2_1_000274.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2023-12-14",
+            "num_reunion": 2
+          },
+          "photo": {
+            "updated_at": "2023-12-14T14:22:46+01:00",
+            "slug": "20231214_cag-r2c4_20231214-142236-jpg"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "13:22",
+          "num_course_pmu": 4,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20231214_37685632_00000HR-1.jpg",
+          "reference_message": "Edition 2023 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20231214_37685632_00000HR-1.jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2021-12-17",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2021-12-17T13:57:27+01:00",
+            "slug": "20211217_cag-r3c4_20211217-135715-jpg"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "13:25",
+          "num_course_pmu": 4,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/20211217_cag-r3c4_20211217-135715-jpg",
+          "reference_message": "Edition 2021 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/20211217_cag-r3c4_20211217-135715-jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2020-12-18",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2020-12-18T12:45:44+01:00",
+            "slug": "20201218_cag-r3c1_20201218-121448-jpg"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "11:55",
+          "num_course_pmu": 1,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/20201218_cag-r3c1_20201218-121448-jpg",
+          "reference_message": "Edition 2020 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/20201218_cag-r3c1_20201218-121448-jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2019-12-17",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2019-12-17T13:21:53+01:00",
+            "slug": "20191217_cag-r1c4_20191217-132131-jpg"
+          },
+          "libcourt_prix_course": "LA VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "13:10",
+          "num_course_pmu": 4,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/20191217_cag-r1c4_20191217-132131-jpg",
+          "reference_message": "Edition 2019 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/20191217_cag-r1c4_20191217-132131-jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2018-12-12",
+            "num_reunion": 4
+          },
+          "photo": {
+            "updated_at": "2018-12-12T14:13:59+01:00",
+            "slug": "20181212_cag-r4c3_20181212-141349-jpg"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "14:05",
+          "num_course_pmu": 3,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/20181212_cag-r4c3_20181212-141349-jpg",
+          "reference_message": "Edition 2018 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/20181212_cag-r4c3_20181212-141349-jpg"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2017-12-13",
+            "num_reunion": 4
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "10:53",
+          "num_course_pmu": 2,
+          "reference_message": "Edition 2017 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": []
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2016-12-15",
+            "num_reunion": 1
+          },
+          "photo": {
+            "updated_at": "2017-12-22T00:58:59+01:00",
+            "slug": "photo-finish-2016-12-15_r1c4"
+          },
+          "libcourt_prix_course": "LA VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "14:50",
+          "num_course_pmu": 4,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/photo-finish-2016-12-15_r1c4",
+          "reference_message": "Edition 2016 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/photo-finish-2016-12-15_r1c4"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2015-12-18",
+            "num_reunion": 2
+          },
+          "photo": {
+            "updated_at": "2017-12-21T01:10:51+01:00",
+            "slug": "photo-finish-2015-12-18_r2c2"
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "14:05",
+          "num_course_pmu": 2,
+          "photo_path": "https://api.equidia.fr/api/public/media/original/photo-finish-2015-12-18_r2c2",
+          "reference_message": "Edition 2015 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": [
+            {
+              "url": "https://api.equidia.fr/api/public/media/original/photo-finish-2015-12-18_r2c2"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2014-12-15",
+            "num_reunion": 1
+          },
+          "libcourt_prix_course": "VESUBIE",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "14:20",
+          "num_course_pmu": 3,
+          "reference_message": "Edition 2014 du prix PRIX DE LA VESUBIE",
+          "photo_gallery": []
+        }
+      ],
+      "same_conditions": [
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:09:07+01:00",
+            "slug": "20251201_cag-r3c2_20251201-130857-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.B",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "12:23",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41445284_00000HR-1.jpg",
+          "reference_message": "Distance comparable, état du terrain similaire et 4 partants en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000252.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_12_000254.png"
+            },
+            {
+              "runner": 3725901,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_9_000257.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725900,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_8_000265.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:01:24+01:00",
+            "slug": "20251201_cag-r3c1_20251201-130110-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.A",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "11:51",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41314555_00000HR-1.jpg",
+          "reference_message": "Distance comparable, état du terrain similaire et 4 partants en commun",
+          "photo_gallery": [
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_000252.png"
+            },
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_8_000253.png"
+            },
+            {
+              "runner": 3725892,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_12_000256.png"
+            },
+            {
+              "runner": 3725888,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_10_000256.png"
+            },
+            {
+              "runner": 3725885,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_7_000259.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-03",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-03T13:54:08+01:00",
+            "slug": "20251203_cag-r3c3_20251203-131551-jpg"
+          },
+          "libcourt_prix_course": "SAINT-LOUP",
+          "discipline": "Haies",
+          "distance": 3400,
+          "heure_depart_course": "12:55",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251203_41314586_00000HR-1.jpg",
+          "reference_message": "Distance comparable, état du terrain similaire et 1 partant en commun",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000253.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_5_000251.png"
+            },
+            {
+              "runner": 3727830,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_7_000252.png"
+            },
+            {
+              "runner": 3727831,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_8_000254.png"
+            },
+            {
+              "runner": 3727825,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_3_000256.png"
+            },
+            {
+              "runner": 3727842,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_14_000258.png"
+            }
+          ]
+        }
+      ],
+      "best_associations": [
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:09:07+01:00",
+            "slug": "20251201_cag-r3c2_20251201-130857-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.B",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "12:23",
+          "num_course_pmu": 2,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41445284_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo B.CLAUDIC / MAJOR STAR associé 1 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000253.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_000252.png"
+            },
+            {
+              "runner": 3725904,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_12_000254.png"
+            },
+            {
+              "runner": 3725901,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_9_000257.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725889,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_1_000262.png"
+            },
+            {
+              "runner": 3725900,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_2/20251201_CAG_2_8_000265.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-01",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-01T13:01:24+01:00",
+            "slug": "20251201_cag-r3c1_20251201-130110-jpg"
+          },
+          "libcourt_prix_course": "VERCORS-PEL.A",
+          "discipline": "Haies",
+          "distance": 3300,
+          "heure_depart_course": "11:51",
+          "num_course_pmu": 1,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251201_41314555_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo T.CHEVILLARD / ALASTOR MAUGREY associé 1 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_gallery": [
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_000252.png"
+            },
+            {
+              "runner": 3725886,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_8_000253.png"
+            },
+            {
+              "runner": 3725892,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_12_000256.png"
+            },
+            {
+              "runner": 3725888,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_10_000256.png"
+            },
+            {
+              "runner": 3725885,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251201_CAG/20251201_CAG_1/20251201_CAG_1_7_000259.png"
+            }
+          ]
+        },
+        {
+          "reunion": {
+            "lib_reunion": "CAGNES-SUR-MER",
+            "hippodrome": {
+              "name": "CAGNES-SUR-MER"
+            },
+            "date_reunion": "2025-12-03",
+            "num_reunion": 3
+          },
+          "photo": {
+            "updated_at": "2025-12-03T13:54:08+01:00",
+            "slug": "20251203_cag-r3c3_20251203-131551-jpg"
+          },
+          "libcourt_prix_course": "SAINT-LOUP",
+          "discipline": "Haies",
+          "distance": 3400,
+          "heure_depart_course": "12:55",
+          "num_course_pmu": 3,
+          "photo_path": "https://media.equidia.fr/unsafe/fit-in/1920x0/filters:format(webp)/https://equidia-vodce-p-api.hexaglobe.net/thumbs/20251203_41314586_00000HR-1.jpg",
+          "reference_message": "Dernière arrivée placée du duo J.CHARRON / ADES associé 2 fois depuis 3 ans, pour 100% de réussites ( dont 0% de victoires)",
+          "photo_finish": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png",
+          "photo_gallery": [
+            {
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000250.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_000253.png"
+            },
+            {
+              "runner": 3727828,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_5_000251.png"
+            },
+            {
+              "runner": 3727830,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_7_000252.png"
+            },
+            {
+              "runner": 3727831,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_8_000254.png"
+            },
+            {
+              "runner": 3727825,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_3_000256.png"
+            },
+            {
+              "runner": 3727842,
+              "url": "https://media.equidia.fr/unsafe/race_frames/20251203_CAG/20251203_CAG_3/20251203_CAG_3_14_000258.png"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "horseHistory": {
+    "code": 405,
+    "message": "Method Not Allowed"
+  },
+  "horseStats": {
+    "code": 405,
+    "message": "Method Not Allowed"
+  }
+}
