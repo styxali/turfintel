@@ -1,1 +1,0 @@
-{"version":3,"file":"chatbotRoutes.d.ts","sourceRoot":"","sources":["../../../../src/infrastructure/http/routes/chatbotRoutes.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AACjC,OAAO,EAAE,iBAAiB,EAAE,MAAM,kCAAkC,CAAC;AAErE,wBAAgB,mBAAmB,CAAC,UAAU,EAAE,iBAAiB,GAAG,MAAM,CAmBzE"}
